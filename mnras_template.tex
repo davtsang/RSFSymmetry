@@ -192,11 +192,11 @@ keyword1 -- keyword2 -- keyword3
 
 
 \section{Introduction}
-\hspace{\parindent}Neutron stars consist of extremely dense matter, the study of which is important for our understanding of nuclear physics. To investigate the internal structure of these stars we must find ways to probe them using observational phenomena. Short gamma-ray bursts (sGRBs)~\cite{d2015short} are one such phenomena that, while their origins are uncertain, likely originate from the merging of binary neutron stars. These bursts are characterised by a large peak in the gamma-ray count that lasts for $\sim 1$ second or less. Around 10\% of sGRBs are preceded by a 'precursor' flare~\cite{troja2010precursors}. These precursor flares can be identified as a lower, separate peak in the gamma-ray count a short time ($\sim 0.1-1.0$ s) before the main peak~\cite{zhong2019precursors}. In this paper we will investigate the constraints that can be applied to nuclear physics parameters by one possible cause of precursors: resonant shattering flares.
+\hspace{\parindent}Neutron stars consist of extremely dense matter, the study of which is important for our understanding of nuclear physics. To investigate the internal structure of these stars we must find ways to probe them using observational phenomena. Short gamma-ray bursts (sGRBs)~\citet{d2015short} are one such phenomena that, while their origins are uncertain, likely originate from the merging of binary neutron stars. These bursts are characterised by a large peak in the gamma-ray count that lasts for $\sim 1$ second or less. Around 10\% of sGRBs are preceded by a 'precursor' flare~\citet{troja2010precursors}. These precursor flares can be identified as a lower, separate peak in the gamma-ray count a short time ($\sim 0.1-1.0$ s) before the main peak~\citet{zhong2019precursors}. In this paper we will investigate the constraints that can be applied to nuclear physics parameters by one possible cause of precursors: resonant shattering flares.
 
-\hspace{\parindent}In the last few years multi-messenger observations of neutron star mergers have provided insight into the origin of sGRBs. In particular, the detection of the gravitational wave signals GW170817~\cite{abbott2017merger} and GW190425~\cite{abbott2020gw190425} (which are thought to originate from mergers) has provided a new angle from which to investigate neutron stars. Here, we use the frequency of gravitational waves to investigate the possibility of a relationship between precursor flares and the modes of oscillation within a neutron star.%second mention of how we use precursors, but have yet to actually explain what we are doing -> but the last sentence of 1st and 2nd paragraph elsewhere (at the end of the introduction?)
+\hspace{\parindent}In the last few years multi-messenger observations of neutron star mergers have provided insight into the origin of sGRBs. In particular, the detection of the gravitational wave signals GW170817~\citet{abbott2017merger} and GW190425~\citet{abbott2020gw190425} (which are thought to originate from mergers) has provided a new angle from which to investigate neutron stars. Here, we use the frequency of gravitational waves to investigate the possibility of a relationship between precursor flares and the normal modes within a neutron star.%second mention of how we use precursors, but have yet to actually explain what we are doing -> but the last sentence of 1st and 2nd paragraph elsewhere (at the end of the introduction?)
 
-\hspace{\parindent}Within a star the bulk motion of matter can be described as a linear combination of an infinite set of oscillation modes~\cite{smeyers2011linear}. Each mode oscillates at a certain frequency, which is value that allows it to obey the boundary conditions for the displacement of matter at both the surface and core of the star. These oscillations can be driven by external gravitational fields, such as that of a binary partner. The frequency and radial profile of the modes are strongly dependant on the internal structure of the star, with different modes being dependant on different properties, such as pressure or shear forces.%mention that excitation can also occur in close encounters in globular clusters?
+\hspace{\parindent}Within a star the bulk motion of matter can be described as a linear combination of an infinite set of normal modes~\citet{smeyers2011linear}. Each mode oscillates at a certain frequency, which is value that allows it to obey the boundary conditions for the displacement of matter at both the surface and core of the star. These oscillations can be driven by external gravitational fields, such as that of a binary partner. The frequency and radial profile of the modes are strongly dependant on the internal structure of the star, with different modes being dependant on different properties, such as pressure or shear forces.%mention that excitation can also occur in close encounters in globular clusters?
 
 
 %define core and crust (and ocean)? or assume reader knows what they are. Might be useful for explaining that the crust has a limit to how much strain it can take.
@@ -206,14 +206,28 @@ keyword1 -- keyword2 -- keyword3
 
 
 \subsection{Resonant Shattering Flares}
-\hspace{\parindent}During the in-spiral of binary neutron stars the oscillation modes can become excited by the tidal forces from the binary partner. The amount of energy deposited in a specific mode is determined by its overlap with the tidal field, with a stronger overlap giving it more energy. As the stars' orbits get smaller, the frequency of the orbit (and hence the gravitational wave frequency) increases. When the orbital frequency matches a mode's frequency it may become resonantly excited, causing the oscillations to rapidly grow in magnitude~\cite{tsang2012resonant}~\cite{tsang2013shattering}.
+\hspace{\parindent}During the gravitational-wave induced inspiral of neutron star binaries the normal modes of a neutron star can become excited by resonant tidal interactions with its binary partner. 
+%The amount of energy deposited in a specific mode is determined by its overlap with the tidal field, with a stronger overlap giving it more energy. 
+As the stars' orbits get smaller, the frequency of the orbit (and hence the gravitational wave frequency) increases.
+When the orbital frequency sweeps through the appropriate resonance, these normal modes are excited, causing the oscillations to rapidly grow in magnitude~\citep{tsang2012resonant, tsang2013shattering, lai1994resonant} .
 
-\hspace{\parindent}The theory of resonant shattering flares is that if the overlap between the tidal field and an oscillation mode is great enough, the resonant excitation of that mode may cause the neutron star crust to become deformed~\cite{troja2010precursors}. If this deformation becomes large enough the strain in the crust may exceed its limit, causing it to fracture. These fractures deposit seismic energy in the crust which could cause it to shatter, creating high frequency oscillations that couple to the star's magnetic field, causing it to release a precursor flare shortly before the main sGRB.%explain RSF process better?
+%\hspace{\parindent}The theory of resonant shattering flares is that if the overlap between the tidal field and a normal mode is great enough, the resonant excitation of that mode may cause the neutron star crust to become deformed~\citet{troja2010precursors}. 
+If a resonant mode is sufficiently large to cause a crustal deformation that exceeds the breaking strain of the neutron star crust, %somewhere around here put in your introduction of i-mode
+the crust will fracture, depositing seismic energy into the crust. Such fractures and seismic waves continue to be driven until the crust reaches its elastic limit, causing it to shatter, scattering the seismic waves to high frequencies that are able to couple to the star's magnetic field, depositing energy into the magnetosphere and sparking a pair-photon fireball. Multiple colliding shells may be emitted over the course of the resonance window, leading to a single non-thermal burst with a duration of the resonance time, and the maximum luminosity determined by the surface magnetic field strength.%explain RSF process better?
 
-\hspace{\parindent}Using multi-messenger observations of neutron star mergers, it is possible that the gravitational wave frequencies at which precursor flares occur could be found. In order for a mode to experience resonant excitation, the frequency of the gravitational waves (i.e. the orbital frequency) must be similar to the oscillation frequency of that mode. Therefore, by using a variety of nuclear models to calculate the frequency of a mode that has a strong overlap with the tidal field, the nuclear parameters of those models could be restricted to those that result in a mode frequency which closely matches the observed gravitational wave frequency during the precursor flare. 
 
-\hspace{\parindent}Of particular interest to the RSF process is the interface (i) mode. This mode is caused by the discontinuity between the crust and core and has a strong overlap with the tidal field~\cite{tsang2012resonant}. This makes it a good candidate for the source of RSFs as less time will be needed at resonance for it to reach the elastic limit for the crust to begin to fracture. In this work we will focus on finding the relationship between the frequency of the i-mode and the nuclear symmetry energy parameters.
+For sufficiently strong surface magnetic field, these Resonant Shattering Flares (RSFs) can be detectable well beyond the Advanced LIGO horizon. Coincident timing of the RSF prompt emission and the gravitaitonal-wave chirp provides a precise measurement of the resonant mode frequency,  
+%In order for a mode to experience resonant excitation, the frequency of the gravitational waves (i.e. the orbital frequency) must be similar to the oscillation frequency of that mode. 
 
+
+
+%May want to insert this discussion of i-mode above
+% \hspace{\parindent}Of particular interest to the RSF process is the interface (i) mode. This mode is caused by the discontinuity in bulk material properties between the crust and core and has a strong overlap with the tidal field~\citet{tsang2012resonant}. This makes it a good candidate for the source of RSFs as less time will be needed at resonance for it to reach the elastic limit for the crust to begin to fracture. In this work we will focus on finding the relationship between the frequency of the i-mode and the nuclear symmetry energy parameters.
+
+
+% Therefore, by using a variety of nuclear models to calculate the frequency of a mode that has a strong overlap with the tidal field, the nuclear parameters of those models could be restricted to those that result in a mode frequency which closely matches the observed gravitational wave frequency during the precursor flare. 
+
+In this paper, we will explore the implications of a coincident multi-messenger detection of an RSF on constraining fundamental nuclear physics parameters. In particular we will explore the relationship between the i-mode frequency, neutron star structure, and the nuclear symmetry energy parameters that determines the behaviour of matter near nuclear saturation density. 
 
 
 
@@ -222,7 +236,7 @@ keyword1 -- keyword2 -- keyword3
 
 
 \subsection{Nuclear Symmetry Energy and Neutron Star Structure}
-\hspace{\parindent}The mode frequencies are dependant on the neutron star equation of state (EoS), the relationship between the energy density and pressure inside the star. At low densities the EoS can be accurately calculated by using the properties of experimentally measured nuclei~\cite{baym1971ground}. However, at the extreme densities found in neutron stars we must rely on nuclear models to calculate the EoS, with different models giving significantly different EoSs. In order to reproduce physical results, these models are parameterised with various nuclear properties, such as the symmetry energy parameters. The nuclear symmetry energy is the energy required to convert a proton into a neutron (or vice-versa) when the neutron and proton numbers are equal. At nuclear saturation density (the density of nucleons in a nucleus) the first three symmetry energy parameters are: the symmetry energy
+\hspace{\parindent}The mode frequencies are dependant on the neutron star equation of state (EoS), the relationship between the energy density and pressure inside the star. At low densities the EoS can be accurately calculated by using the properties of experimentally measured nuclei~\citet{baym1971ground}. However, at the extreme densities found in neutron stars we must rely on nuclear models to calculate the EoS, with different models giving significantly different EoSs. In order to reproduce physical results, these models are parameterised with various nuclear properties, such as the symmetry energy parameters. The nuclear symmetry energy is the energy required to convert a proton into a neutron (or vice-versa) when the neutron and proton numbers are equal. At nuclear saturation density (the density of nucleons in a nucleus) the first three symmetry energy parameters are: the symmetry energy
 \begin{align}
 J=E_{\rm sym}(n_0),    
 \label{eq:sym_J}
@@ -279,14 +293,15 @@ K_{\rm sym}=9n_0^2\frac{\partial^2 E_{\rm sym}(n_b)}{\partial n_b^2}\biggr\rvert
 
 
 \section{Calculation of the Normal Modes}
-\hspace{\parindent}Each oscillation mode gives a different profile for the radial and transverse displacements. To calculate this, as well as the mode frequencies, we perturb the equations defining the equilibrium state of neutron star matter. The neutron stars involved in mergers are old and therefore will have cooled and spun down, so we assume the temperature is low throughout the star and ignore effects of rotation. We also assume that the periods of the modes that we are interested in are significantly lower that the beta equilibrium timescale. Unless otherwise stated, we have use $1.4M_{\odot}$ neutron stars. Finally, we ignore terms that are non-linear in perturbations because they are small and therefore non-linear terms are negligible.
-% low temperature or zero temperature? is 'spun down' correct?
+\hspace{\parindent}We calculate the frequencies and radial/transverse displacements of the eigenmodes of a neutron star by linearly perturbing the equations defining the equilibrium state of neutron star matter. We assume that the binary lifetime is much larger than the spin-down time of the individual neutron stars, so we may ignore rotation and high-temperature effects. We will also assume that the frequencies of the modes ($\sim 10 - 100$ Hz) that we are interested in result in oscillations that are significantly faster than the beta-equilibrium timescale that governs weak-interactions determining the local composition. 
 
+
+%Unless otherwise stated, we have use $1.4M_{\odot}$ neutron stars. <-Good, but later. 
 
 
 %explain Eulerian vs Lagrangian perturbations?
-\subsection{Linear Perturbation Equations}
-\hspace{\parindent}Following the methodology of~\cite{mcdermott1988nonradial}, the equations governing the displacement caused by the modes of oscillation can be derived from the equations for mass continuity, momentum conservation, and Poisson's equation:
+\subsection{Basic Equations}
+\hspace{\parindent}Following~\citet{mcdermott1988nonradial}, we begin with the equations for mass continuity, momentum conservation, and Poisson's equation:
 \begin{align}
 \frac{\partial\rho}{\partial t}+\nabla\cdot(\rho v)=0,
 \label{eq:continuity_eqn}
@@ -299,7 +314,7 @@ K_{\rm sym}=9n_0^2\frac{\partial^2 E_{\rm sym}(n_b)}{\partial n_b^2}\biggr\rvert
 \nabla^2\Phi=4\pi G\rho,
 \label{eq:Poisson_eqn}
 \end{align}
-\noindent where $\rho$ is the energy density, $v$ is the velocity of the matter, $\sigma$ is the stress tensor, and $\Phi$ is the gravitational potential. By adding a small perturbation to each of the quantities in these equations (eg: $\rho\rightarrow\rho+\delta\rho$), and ignoring terms that are non-linear in perturbations, these three equations can be used to obtain the wave equation
+\noindent where $\rho$ is the energy density, $v$ is the velocity of the matter, $\sigma$ is the stress tensor, and $\Phi$ is the gravitational potential. Combining the linear perturbations of these equations (taking the Cowling approximation and ignoring perturbations of the gravitational potential~\citet{cowling1941non}), we obtain the wave equation
 \begin{align}\nonumber
 &&\omega^2u=-\nabla\left(\frac{\Gamma_1 p}{\rho}\nabla\cdot u\right)-\nabla\left(\frac{1}{\rho}u\cdot\nabla p\right)-\hat{r}A\frac{\Gamma_1 p}{\rho}\nabla\cdot u\\\nonumber
 &&+\frac{1}{\rho}\biggr(\nabla\left(\frac{2}{3}\mu\nabla\cdot u\right)-\left(\nabla\mu\cdot\nabla\right)u-\nabla\left(u\cdot\nabla\mu\right)\\
@@ -313,10 +328,11 @@ A=\frac{1}{\rho}\frac{d\rho}{dr}-\frac{1}{\Gamma_1P}\frac{dP}{dr}
 \end{align}
 \noindent is the Schwarzschild discriminant, and
 \begin{align}
-\Gamma_1=\left(\frac{\partial\:ln(P)}{\partial\:ln(\rho)}\right)_s
+\Gamma_1=\left(\frac{\partial\ln(P)}{\partial\ln(\rho)}\right)_s
 \label{eq:adiabatic_index}
 \end{align}
-\noindent is the adiabatic index when the composition of the star is frozen. The non-diagonal terms of the stress tensor have become the shear modulus, which we calculated using~\cite{strohmayer1991shear}
+\noindent is the adiabatic index when the composition of the star is frozen. The non-diagonal terms of the stress tensor are given by $\sigma_{ij} = \mu \nabla_i u_j$, assuming the isotropic shear modulus $\mu$ given by  
+~\citet{strohmayer1991shear}
 \begin{align}
 \mu=\frac{0.1194}{1+17810\left(\frac{ak_bT}{\left(Ze\right)^2}\right)^2}\frac{n_i\left(Ze\right)^2}{a},
 \label{eq:mu_1991}
@@ -326,7 +342,8 @@ A=\frac{1}{\rho}\frac{d\rho}{dr}-\frac{1}{\Gamma_1P}\frac{dP}{dr}
 a=\left(\frac{3}{4\pi n_i}\right)^{\frac{1}{3}}.
 \label{eq:mu_1991_a}
 \end{align}
-\noindent We have also taken the Cowling approximation~\cite{cowling1941non}. This approximation states that, since the mass of a star is concentrated in its centre, the displacement of matter that is not close to the centre does not significantly alter the gravitational potential and therefore $\Phi '\approx 0$. The time dependence of the perturbed quantities was assumed to be of the form $e^{i\omega t}$, with $\omega$ being the oscillation frequency of the mode. This can be used to separate the time and position dependencies of the Lagrangian displacement to get
+% \noindent We have also taken the Cowling approximation~\citet{cowling1941non}. This approximation states that, since the mass of a star is concentrated in its centre, the displacement of matter that is not close to the centre does not significantly alter the gravitational potential and therefore $\Phi '\approx 0$. 
+Taking the perturbations to have time dependence of the form $e^{i\omega t}$, where $\omega$ is the mode frequency, we have 
 \begin{align}
 u(x,t)=\xi(x)e^{i\omega t}.
 \label{eq:time_seperation}
@@ -336,7 +353,7 @@ u(x,t)=\xi(x)e^{i\omega t}.
 \xi_r=U(r)Y_{lm},\;\;\;\xi_{\theta}=V(r)\frac{\partial Y_{lm}}{\partial\theta},\;\;\;\xi_{\phi}=\frac{V(r)}{sin(\theta)}\frac{\partial Y_{lm}}{\partial\phi},
 \label{eq:xi_seperation}
 \end{align}
-\noindent with $U(r)$ being the radial displacement, $V(r)$ being the transverse displacement, and $Y_{lm}$ being the spherical harmonics.
+\noindent where $U(r)$ is the radial displacement, $V(r)$ is the transverse displacement, and $Y_{lm}$ are the spherical harmonics.
 
 \hspace{\parindent}By using the separation of variables given in equations \ref{eq:time_seperation} and \ref{eq:xi_seperation}, equation \ref{eq:wave_eqn} becomes a set of 4 equations:% (or 5 without the Cowling approximation) 
 \begin{align}\nonumber
@@ -370,7 +387,9 @@ u(x,t)=\xi(x)e^{i\omega t}.
 y_1=\frac{U}{r},\;\;\;\;y_2=\frac{\omega^2V}{g}
 \label{eq:y1y2}
 \end{align}
-\noindent (where $g=\frac{1}{\rho}\frac{dP}{dr}$), equations \ref{eq:Ueqn}-\ref{eq:chihat} can be rewritten as a pair of coupled differential equations:
+\noindent (where $g=\frac{1}{\rho}\frac{dP}{dr}$), 
+%SAY SOMETHING ABOUT REISSENEGGER
+equations \ref{eq:Ueqn}-\ref{eq:chihat} can be rewritten as a pair of coupled differential equations:
 \begin{align}
 \left(1+\tilde{V}\right)\frac{dy_1}{dx}=\left(\frac{\tilde{V}}{\Gamma_1}-3\right)y_1+\left(\frac{l(l+1)}{c_1\Omega^2}-\frac{\tilde{V}}{\Gamma_1}\right)y_2,
 \label{eq:McDy1}
@@ -381,17 +400,17 @@ y_1=\frac{U}{r},\;\;\;\;y_2=\frac{\omega^2V}{g}
 \end{align}
 \noindent where the equilibrium properties of the star are: 
 \begin{align}\nonumber
-\tilde{U}=\frac{d\:ln\left(M_r\right)}{d\:ln\left(r\right)}=4\pi r^2\rho\frac{r}{M_r},\;\;\;c_1=\left(\frac{r}{R_*}\right)^3\frac{M_*}{M_r},\;\;\;\Omega^2=\frac{\omega^2R_*^3}{GM_*},
+\tilde{U}=\frac{d\ln\left(M_r\right)}{d\ln\left(r\right)}=4\pi r^2\rho\frac{r}{M_r},\;\;\;c_1=\left(\frac{r}{R_*}\right)^3\frac{M_*}{M_r},\;\;\;\Omega^2=\frac{\omega^2R_*^3}{GM_*},
 % \label{eq:eqbm_properties1}
 \end{align}
 \begin{align}\nonumber
-\tilde{V}=-\frac{d\:ln\left(P\right)}{d\:ln\left(r\right)}=-\frac{G\rho M_r}{rP}\left(1+\frac{P}{\rho c^2}\right)\left(1+\frac{4\pi r^3 P}{M_r c^2}\right)\left(1-\frac{2GM_r}{rc^2}\right)^{-1},
+\tilde{V}=-\frac{d\ln\left(P\right)}{d\ln\left(r\right)}=-\frac{G\rho M_r}{rP}\left(1+\frac{P}{\rho c^2}\right)\left(1+\frac{4\pi r^3 P}{M_r c^2}\right)\left(1-\frac{2GM_r}{rc^2}\right)^{-1},
 % \label{eq:eqbm_properties2}
 \end{align}
 
 
 
-
+%SKIP THIS
 \hspace{\parindent}For the solid crust the shear modulus is not zero, and therefore we obtain a set of four coupled differential equations:
 \begin{align}
 \left(1+\tilde{V}\right)\frac{dz_1}{dx}=-\left(1+2\frac{\alpha_2}{\alpha_3}\right)z_1+\frac{1}{\alpha_3}z_2+l\left(l+1\right)\frac{\alpha_2}{\alpha_3}z_3,
@@ -421,6 +440,7 @@ y_1=\frac{U}{r},\;\;\;\;y_2=\frac{\omega^2V}{g}
 \end{align}
 \noindent $z_1$ is the radial displacement, $z_2$ is proportional to the radial traction, $z_3$ is the transverse displacement, and $z_4$ is proportional to the transverse traction.
 
+%UNTIL HERE
 
 
 \hspace{\parindent}At the boundary between the solid crust and the fluid core (and the boundary between the fluid surface ocean and the solid crust), there are three jump conditions that must be satisfied:
@@ -510,15 +530,36 @@ z_4=0.
 
 
 \section{Results}
-\hspace{\parindent}Figure \ref{fig:f_vs_Rcc_R*} shows the relationship between the frequency of the i-mode and both the location of the crust-core transition and the total radius of the star for the sly4 EoS. This figure was created by varying the central pressure of the neutron star and using the TOV equations to find $R_*$ and $R_{cc}$. Then the i-mode frequency was calculated each of the central pressures. The crust-core transition density was also varied, since this also effects the shear modulus at the transition. Three different values were manually inputted to investigate its effect on the i-mode frequency, and from the figure it can been seen that the relationship between the star's radius, $n_{b,cc}$ and the frequency is not simple, particularly for higher $n_{b,cc}$ values. For $n_{b,cc}=6.5\times10^{37}$ cm$^{-3}$ there is a maximum i-mode frequency of $239$ Hz at around $R_*=12.5$ Km, which places an upper limit on the frequency. However, the mass of a neutron star with this radius is very low ($0.45$ M$_{\odot}$), and therefore the i-mode frequency would likely be significantly lower than this value. If this maximum appears for the EoSs parameteried by $J$, $L$ and $K_{\rm sym}$, we could use it to constrain $J$, $L$ and $K_{\rm sym}$ for stars whose mass is not known.
-%check this last sentence, what can we learn from this figure?
+\hspace{\parindent}Figure \ref{fig:f_vs_R_varyJ} shows the relationship between the frequency of the i-mode and both the location of the crust-core transition and the total radius of the star for EoSs with various J values. Figure \ref{fig:f_vs_R_varyL} shows the same, but for various L values. This figure was created by using the TOV equations to find $R_*$ and $R_{cc}$ for neutron stars with masses between $0.5$ and $2.0$ M$_{\odot}$, and then calculating the i-mode frequency for each of the stars. The J and L values were varied to see how they affect the i-mode and radius of the star.
+% what can we learn from this figure?
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{f_Rstar_Rcc_2}
-\caption{The frequency of the i-mode for varying neutron star mass and radius. The figure shows both the total radius (solid lines) and crust-core radius (dashed lines) for each frequency. The stars indicate $1.4$ solar masses neutron stars. Increasing total radius causes the central pressure and total mass to decrease.}%check this, 'for each frequency' doesn't sound right...
-\label{fig:f_vs_Rcc_R*}
+\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_Jvary.pdf}
+\caption{The relationship between neutron star radius and i-mode frequency. The figure shows both the total radius (solid lines) and crust-core radius (dashed lines) for each frequency. The stars indicate $1.4$ solar mass neutron stars. Increasing total radius causes the central pressure and total mass to decrease, with each line showing the change in frequency and radius between $0.5$ and $2.0$ solar masses. The three different colours are for three different J values, and $L=50.0$ MeV and $K_{\rm sym}=40.0$ MeV.}
+\label{fig:f_vs_R_varyJ}
 \end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_Lvary.pdf}
+\caption{The same as figure \ref{fig:f_vs_R_varyJ}, but the three different colours are for three different L values, and $J=31.2$ MeV and $K_{\rm sym}=40.0$ MeV. The red (middle) lines are the same for both figures.}
+\label{fig:f_vs_R_varyL}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -544,7 +585,7 @@ z_4=0.
 
 
 \subsection{Constraining $J$, $L$, and $K_{\rm sym}$ with an RSF detection}
-\hspace{\parindent}The timescale over which resonant excitation of a mode can occur is calculated as \cite{tsang2012resonant}
+\hspace{\parindent}The timescale over which resonant excitation of a mode can occur is calculated as \citet{tsang2012resonant}
 \begin{align}
 t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odot}}\right)^{\frac{-5}{6}}\left(\frac{f_{\rm mode}}{100 \text{ Hz}}\right)^{\frac{-11}{6}},
 \label{res_timescale}    
@@ -570,7 +611,7 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 \label{fig:t_res_spread}
 \end{figure}
 
-\hspace{\parindent}Figure \ref{fig:M_vs_f} shows that neutron stars with different masses will have different i-mode frequencies, with more massive stars having lower frequencies. This means that, for a specific star, the i-mode frequency will have some degree of uncertainty propagated from the uncertainty in its mass measurement. Figure \ref{fig:vary_mass_contours} shows an example of how this uncertainty affects the $J,L$ constraints. In order to get a reasonable range for the mass uncertainty, the mass values used were taken from the low spin ranges for the stars in GW170817~\cite{abbott2017merger}. The difference between the contours' $L$ values at any given $J$ value is $1-1.5$ MeV. Improved measurements of NS mass would help to reduce this uncertainty, giving us a better constraint.
+\hspace{\parindent}Figure \ref{fig:M_vs_f} shows that neutron stars with different masses will have different i-mode frequencies, with more massive stars having lower frequencies. This means that, for a specific star, the i-mode frequency will have some degree of uncertainty propagated from the uncertainty in its mass measurement. Figure \ref{fig:vary_mass_contours} shows an example of how this uncertainty affects the $J,L$ constraints. In order to get a reasonable range for the mass uncertainty, the mass values used were taken from the low spin ranges for the stars in GW170817~\citet{abbott2017merger}. The difference between the contours' $L$ values at any given $J$ value is $1-1.5$ MeV. Improved measurements of NS mass would help to reduce this uncertainty, giving us a better constraint.
 
 \begin{figure}
 \centering
@@ -595,7 +636,7 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 
 \section{Discussion}
 %first sentence is repeated. I think it fits better here, so remove/change the earlier occurrence.
-\hspace{\parindent}Far from symmetry we would expect higher order symmetry energy parameters ($L$, $K_{\rm sym}$) to have a stronger impact on the frequency than lower order terms ($J$). From figure \ref{fig:freq_contours} this does seem to be the case, with the contours covering a wide range of $J$ values and a smaller range of $L$ values. $K_{\rm sym}$ also has a significant impact on the i-mode frequencies, with the extremes of our $K_{\rm sym}$ range having a difference of $\Delta L\sim 20$ MeV for the same $J$ values. Figure \ref{fig:constraints} shows contours for supposed detections of RSFs at $100$ Hz and $150$ Hz, with the two contours for each frequency showing the upper and lower bounds of the $K_{\rm sym}$ range. $100-150$ Hz was chosen because the precursor occurs roughly half a second before the merger~\cite{zhong2019precursors}, and half a second before the merger, the frequency of GW170817 was $~100-150$ Hz~\cite{abbott2017merger}.
+\hspace{\parindent}Far from symmetry we would expect higher order symmetry energy parameters ($L$, $K_{\rm sym}$) to have a stronger impact on the frequency than lower order terms ($J$). From figure \ref{fig:freq_contours} this does seem to be the case, with the contours covering a wide range of $J$ values and a smaller range of $L$ values. $K_{\rm sym}$ also has a significant impact on the i-mode frequencies, with the extremes of our $K_{\rm sym}$ range having a difference of $\Delta L\sim 20$ MeV for the same $J$ values. Figure \ref{fig:constraints} shows contours for supposed detections of RSFs at $100$ Hz and $150$ Hz, with the two contours for each frequency showing the upper and lower bounds of the $K_{\rm sym}$ range. $100-150$ Hz was chosen because the precursor occurs roughly half a second before the merger~\citet{zhong2019precursors}, and half a second before the merger, the frequency of GW170817 was $~100-150$ Hz~\citet{abbott2017merger}.
 
 \hspace{\parindent}....................................
 
@@ -606,7 +647,7 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 
 
 \subsection{Comparisons to other constraints}
-\hspace{\parindent}There are many different constraints on the symmetry energy parameters that can be found from various properties of nuclei, such as the their masses~\cite{kortelainen2010nuclear} and neutron skins~\cite{chen2010density}. By plotting these constraints together, the symmetry energy parameters $J$ and $L$ can be constrained to a small range of values~\cite{balantekin2014nuclear}. This range is shown in figure \ref{fig:constraints} alongside the contours for RSFs at $100$ Hz and $150 Hz$.
+\hspace{\parindent}There are many different constraints on the symmetry energy parameters that can be found from various properties of nuclei, such as the their masses~\citet{kortelainen2010nuclear} and neutron skins~\citet{chen2010density}. By plotting these constraints together, the symmetry energy parameters $J$ and $L$ can be constrained to a small range of values~\citet{balantekin2014nuclear}. This range is shown in figure \ref{fig:constraints} alongside the contours for RSFs at $100$ Hz and $150 Hz$.
 From this figure we see that for an i-mode frequency of $100$ Hz, our constraint has a similar $L$ uncertainty as the nuclear constraints, and so a detection at this value would help provide evidence the currently known constraints on $J$ and $L$. However, for an i-mode frequency of $150$ Hz, the constraint is shifted to significantly lower L values. Therefore a detection of a precursor at $150$ Hz would improve the previous constraints on $J$ and $L$ to approximately $J\approx 30.75\pm 1.65$ MeV, $L\approx 48\pm 7$ MeV. In general, these results prefer $L$ values towards to lower end of the previous constrains. %Cite Lattimer and mention that the dipole polarisability is wrong?
 % on the graph of constraints in the J,L plane, my results are similar to those for dipole polarisability
 % constrain K using the J,L values?
