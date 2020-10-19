@@ -221,7 +221,7 @@ keyword1 -- keyword2 -- keyword3
 
 
 \subsection{Nuclear Symmetry Energy and Neutron Star Structure}
-\hspace{\parindent}The mode frequencies are dependant on the neutron star equation of state (EoS), the relationship between the energy density and pressure inside the star. At low densities the EoS can be accurately calculated by using the properties of experimentally measured nuclei~\citet{baym1971ground}. However, at the extreme densities found in neutron stars we must rely on nuclear models to calculate the EoS, with different models giving significantly different EoSs. In order to reproduce physical results, these models are parameterised with various nuclear properties, such as the symmetry energy parameters. The nuclear symmetry energy is the average energy per nucleon required to convert symmetric nuclear matter (A=Z) into pure neutron matter (A=0). At nuclear saturation density (the density of nucleons in a nucleus) the first three symmetry energy parameters are: the symmetry energy
+\hspace{\parindent}The mode frequencies are dependant on the neutron star equation of state (EoS), the relationship between the energy density and pressure inside the star. At low densities the EoS can be accurately calculated by using the properties of experimentally measured nuclei~\citet{baym1971ground}. However, at the extreme densities found in neutron stars we must rely on nuclear models to calculate the EoS, with different models giving significantly different EoSs. In order to reproduce physical results, these models are parameterised with various nuclear properties, such as the symmetry energy parameters. The nuclear symmetry energy is the average energy per nucleon required to convert symmetric nuclear matter (Z=N) into pure neutron matter (Z=0). At nuclear saturation density (the density of nucleons in a nucleus) the first three symmetry energy parameters are: the symmetry energy
 \begin{align}
 J=E_{\rm sym}(n_0),    
 \label{eq:sym_J}
@@ -266,7 +266,7 @@ K_{\rm sym}=9n_0^2\frac{\partial^2 E_{\rm sym}(n_b)}{\partial n_b^2}\biggr\rvert
 % \begin{figure}
 % \centering
 % \includegraphics[width=0.45\textwidth,angle=0]{TOVs.pdf}
-% \caption{The mass-radius relationships calculated using the TOV equations for all of the $J$, $L$, $K_{\rm sym}$ values.}
+% \caption{The mass-radius relationships calculated using the TOV equations for all of the $J$, $L$, $K_{\rm sym}$ values.}%For EoS batch 3 (last one before the new adiabatic index calculation)
 % \label{fig:TOVs}
 % \end{figure}
 
@@ -278,13 +278,12 @@ K_{\rm sym}=9n_0^2\frac{\partial^2 E_{\rm sym}(n_b)}{\partial n_b^2}\biggr\rvert
 
 
 \section{Calculation of the Normal Modes}
-\hspace{\parindent}We calculate the frequencies and radial/transverse displacements of the eigenmodes of a neutron star by linearly perturbing the equations defining the equilibrium state of neutron star matter. We assume that the binary lifetime is much larger than the spin-down time of the individual neutron stars, so we may ignore rotation and high-temperature effects. We will also assume that the frequencies of the modes ($\sim 10 - 100$ Hz) that we are interested in result in oscillations that are significantly faster than the beta-equilibrium timescale that governs weak-interactions determining the local composition. 
+\hspace{\parindent}We calculate the frequencies and radial/transverse displacements of the eigenmodes of a neutron star by linearly perturbing the equations defining the equilibrium state of neutron star matter. We assume that the binary lifetime is much larger than the spin-down time of the individual neutron stars, and so we may ignore rotation and high-temperature effects. We will also assume that the frequencies of the modes that we are interested in ($\sim 10 - 100$ Hz) result in oscillations that are significantly faster than the beta-equilibrium timescale; therefore, weak-interactions do not have time to change the composition of a displaced mass element to more closely match the local composition.
 
 
 
 
 
-%explain Eulerian vs Lagrangian perturbations?
 \subsection{Basic Equations}
 \hspace{\parindent}Following~\citet{mcdermott1988nonradial}, we begin with the equations for mass continuity, momentum conservation, and Poisson's equation:
 \begin{align}
@@ -299,14 +298,14 @@ K_{\rm sym}=9n_0^2\frac{\partial^2 E_{\rm sym}(n_b)}{\partial n_b^2}\biggr\rvert
 \nabla^2\Phi=4\pi G\rho,
 \label{eq:Poisson_eqn}
 \end{align}
-\noindent where $\rho$ is the energy density, $v$ is the velocity of the matter, $\sigma$ is the stress tensor, and $\Phi$ is the gravitational potential. Combining the linear perturbations of these equations (taking the Cowling approximation and ignoring perturbations of the gravitational potential~\citet{cowling1941non}), we obtain the wave equation
+\noindent where $\rho$ is the energy density, $v$ is the velocity of the matter, $\sigma$ is the stress tensor, and $\Phi$ is the gravitational potential. Combining the linear perturbations of these equations (and taking the Cowling approximation by ignoring perturbations of the gravitational potential~\citet{cowling1941non}), we obtain the wave equation
 \begin{align}\nonumber
 &&\omega^2u=-\nabla\left(\frac{\Gamma_1 p}{\rho}\nabla\cdot u\right)-\nabla\left(\frac{1}{\rho}u\cdot\nabla p\right)-\hat{r}A\frac{\Gamma_1 p}{\rho}\nabla\cdot u\\\nonumber
 &&+\frac{1}{\rho}\biggr(\nabla\left(\frac{2}{3}\mu\nabla\cdot u\right)-\left(\nabla\mu\cdot\nabla\right)u-\nabla\left(u\cdot\nabla\mu\right)\\
 &&+\left(u\cdot\nabla\right)\nabla\mu-\mu\left(\nabla^2 u+\nabla\left(\nabla\cdot u\right)\right)\biggr),
 \label{eq:wave_eqn}
 \end{align}
-where $u(x,t)$ is the Lagrangian displacement (the displacement of the mass element initially located at $x$),
+where $u(x,t)$ is the Lagrangian displacement (the displacement of the mass element that is located at $x$ when $t=0$),
 \begin{align}
 A=\frac{1}{\rho}\frac{d\rho}{dr}-\frac{1}{\Gamma_1P}\frac{dP}{dr}
 \label{eq:schwartz_descrim}
@@ -316,8 +315,7 @@ A=\frac{1}{\rho}\frac{d\rho}{dr}-\frac{1}{\Gamma_1P}\frac{dP}{dr}
 \Gamma_1=\left(\frac{\partial\ln(P)}{\partial\ln(\rho)}\right)_s
 \label{eq:adiabatic_index}
 \end{align}
-\noindent is the adiabatic index when the composition of the star is frozen. The non-diagonal terms of the stress tensor are given by $\sigma_{ij} = \mu \nabla_i u_j$, assuming the isotropic shear modulus $\mu$ given by  
-~\citet{strohmayer1991shear}
+\noindent is the adiabatic index when the composition of the star is frozen. The non-diagonal terms of the stress tensor are given by $\sigma_{ij} = \mu \nabla_i u_j$, assuming the isotropic shear modulus $\mu$ given by \citet{strohmayer1991shear}
 \begin{align}
 \mu=\frac{0.1194}{1+17810\left(\frac{ak_bT}{\left(Ze\right)^2}\right)^2}\frac{n_i\left(Ze\right)^2}{a},
 \label{eq:mu_1991}
@@ -327,8 +325,7 @@ A=\frac{1}{\rho}\frac{d\rho}{dr}-\frac{1}{\Gamma_1P}\frac{dP}{dr}
 a=\left(\frac{3}{4\pi n_i}\right)^{\frac{1}{3}}.
 \label{eq:mu_1991_a}
 \end{align}
-% \noindent We have also taken the Cowling approximation~\citet{cowling1941non}. This approximation states that, since the mass of a star is concentrated in its centre, the displacement of matter that is not close to the centre does not significantly alter the gravitational potential and therefore $\Phi '\approx 0$. 
-Taking the perturbations to have time dependence of the form $e^{i\omega t}$, where $\omega$ is the mode frequency, we have 
+\noindent Taking the perturbations to have time dependence of the form $e^{i\omega t}$, where $\omega$ is the mode frequency, we have 
 \begin{align}
 u(x,t)=\xi(x)e^{i\omega t}.
 \label{eq:time_seperation}
@@ -340,7 +337,7 @@ u(x,t)=\xi(x)e^{i\omega t}.
 \end{align}
 \noindent where $U(r)$ is the radial displacement, $V(r)$ is the transverse displacement, and $Y_{lm}$ are the spherical harmonics.
 
-\hspace{\parindent}By using the separation of variables given in equations \ref{eq:time_seperation} and \ref{eq:xi_seperation}, equation \ref{eq:wave_eqn} becomes a set of 4 equations:% (or 5 without the Cowling approximation) 
+\hspace{\parindent}By using the separation of variables given in equations \ref{eq:time_seperation} and \ref{eq:xi_seperation}, the wave equation can be rewritten in terms of $U$ and $V$: 
 \begin{align}\nonumber
 &&\rho\omega^2U=\rho\frac{d\hat{\chi}}{dr}-A\Gamma_1 p\hat{\alpha}-\frac{d}{dr}\left(\frac{1}{3}\mu\hat{\alpha}\right)+\frac{d\mu}{dr}\left(\hat{\alpha}-2\frac{dU}{dr}\right)\\
 &&-\mu\left(\frac{1}{r^2}\frac{d}{dr}\left( r^2\frac{dU}{dr}\right)-\frac{l(l+1)}{r^2}U+\frac{2l(l+1)}{r^2}V\right),
@@ -364,13 +361,38 @@ u(x,t)=\xi(x)e^{i\omega t}.
 \hat{\chi}=-\frac{\Gamma_1p}{\rho}\hat{\alpha}-\frac{1}{\rho}\frac{\partial p}{\partial r}U.
 \label{eq:chihat}
 \end{align}
+%I FELL LIKE THERE SHOULD BE SOMETHING MORE HERE?
 
-\hspace{\parindent}To calculate the self-gravity within the neutron star we use the formula of \citet{reisenegger1992new},
+
+
+
+
+
+
+
+\hspace{\parindent}In this work we have applied Newtonian perturbations to a relativistic equilibrium stellar structure, resulting in a hybrid model. In order for this model to be usable, the modes must be orthogonal to properly describe the vector space of mass displacements within the star. The eigenfunction and eigenvalue of any mode can be defined in relation to the oscillation operator, $\mathcal{H}$, by \citet{reisenegger1994multipole}:
+\begin{align}
+\mathcal{H}\xi=-\omega^2\xi.
+\end{align}
+\noindent Newtonian perturbations will only result in orthogonal modes if $\mathcal{H}$ is hermitian with respect to the inner product of two vector fields (any two displacements of matter within the star), ie:
+\begin{align}
+\int_*\rho_0(r)\zeta^*(x)\cdot\mathcal{H}\Psi(x)d^3x=\int_*\rho_0(r)\mathcal{H}\zeta^*(x)\cdot\Psi(x)d^3x.
+\end{align}
+\noindent For a Newtonian stellar model, the oscillation operator is hermitian, and therefore Newtonian perturbations can be applied to it to obtain orthogonal modes. 
+
+\hspace{\parindent}For a relativistic stellar model, the oscillation operator is not hermitian. However, this does not pose a problem for relativistic perturbations because the eigenfrequencies that they give are complex numbers, with the imaginary component arising from the damping of the mode due to the emission of gravitational waves. This imaginary component cancels out the deviation from orthogonality that arises from $\mathcal{H}$ not being hermitian, and so relativistic perturbations can be applied to a relativistic model to obtain orthogonal modes.
+
+\hspace{\parindent} Our hybrid model can cause problems, because the background model does not give a hermitian oscillation operator and the Newtonian oscillations do not have the extra imaginary component required to cancel out the modes' deviation from orthogonality. To fix this, we follow the calculations of \citet{reisenegger1994multipole} and artificially force the oscillation operator to be hermitian by defining the gravity within the star as
 \begin{align}
 g=\frac{1}{\rho}\frac{dP}{dr}.
 \label{eq:rel_grav}
 \end{align}
-\noindent This formula allows us to simulate the effects of relativistic gravity within our non-relativistic model.
+\noindent This form for the gravity makes the oscillation operator hermitian within the relativistic model, and therefore we can apply Newtonian perturbations to this modified relativistic star to obtain orthogonal modes. The change to the gravity somewhat changes the properties of the modes, but only to a small degree.
+
+
+
+
+
 
 
 
@@ -446,63 +468,71 @@ equations \ref{eq:Ueqn}-\ref{eq:chihat} can be rewritten as a pair of coupled di
 
 
 
-\hspace{\parindent}At the boundary between the solid crust and the fluid core (and the boundary between the fluid surface ocean and the solid crust), there are three jump conditions that must be satisfied:
+
+
+
+
+
+%Explain how we determine where Rcc is?
+
+
+\hspace{\parindent}At the boundary between the solid crust and the fluid core, there are three jump conditions that must be satisfied:
 \begin{align}
-U_{\rm cr}(R_{\rm cc})=U_{\rm co}(R_{\rm cc}),
+U\rvert_{r=R_{cc}^{+}}=U\rvert_{r=R_{cc}^{-}},
 \label{eq:jump1}
 \end{align}
 \begin{align}
-\frac{1}{\rho}\left(\lambda\hat{\alpha}_{\rm cr}(R_{\rm cc})+2\mu\frac{dU_{\rm cr}(R_{\rm cc})}{dr}\right)=\tilde{V}\left(\frac{U_{\rm co}(R_{\rm cc})}{r}-\frac{\omega^2V_{\rm co}(R_{\rm cc})}{g}\right),
+\frac{1}{\rho}\left(\lambda\hat{\alpha}+2\mu\frac{dU}{dr}\right)\biggr\rvert_{r=R_{cc}^{+}}=\tilde{V}\left(\frac{U}{r}-\frac{\omega^2V}{g}\right)\biggr\rvert_{r=R_{cc}^{-}},
 \label{eq:jump2}
 \end{align}
 \begin{align}
-\frac{\mu}{\rho}\left(\frac{dV_{\rm cr}(R_{\rm cc})}{dr}-\frac{V_{\rm cr}(R_{\rm cc})}{r}+\frac{U_{\rm cr}(R_{\rm cc})}{r}\right)=0,
+\frac{\mu}{\rho}\left(\frac{dV}{dr}-\frac{V}{r}+\frac{U}{r}\right)\biggr\rvert_{r=R_{cc}^{+}}=0,
 \label{eq:jump3}
 \end{align}
 \noindent where 
 \begin{align}
-\tilde{V}=-\frac{d\ln\left(P\right)}{d\ln\left(r\right)}=-\frac{G\rho M_r}{rP}\left(1+\frac{P}{\rho c^2}\right)\left(1+\frac{4\pi r^3 P}{M_r c^2}\right)\left(1-\frac{2GM_r}{rc^2}\right)^{-1}
+\tilde{V}=-\frac{d\ln\left(P\right)}{d\ln\left(r\right)}=-\frac{G\rho M_r}{rP}\left(1+\frac{P}{\rho c^2}\right)\left(1+\frac{4\pi r^3 P}{M_r c^2}\right)\left(1-\frac{2GM_r}{rc^2}\right)^{-1},
 \end{align}
-\noindent and
 \begin{align}
 \lambda=\Gamma_1P-\frac{2}{3}\mu
 \end{align}
-\noindent is the Lam\'e coefficient. The first two jump conditions can be combined, allowing us to ignore the scaling of $U$ and $V$ in the crust and core. This gives us %mention how dividing one _cr by another _cr removes the scaling, so as long as we have f(X1_cr/X2_cr)=g(Y1_co/Y2_co), we can ignore scaling.
+\noindent is the Lam\'e coefficient, and $R_{cc}^{+}$ ($R_{cc}^{-}$) is the value at the boundary when approaching from the crust (core) of the star. The three conditions require different properties to be continuous across the crust-core boundary. The first is for the radial displacement, the second is for the pressure, and the third is for the traction (which must be zero in the fluid core). The first two jump conditions can be combined, cancelling out the arbitrary magnitude of $U$ and $V$ (which is different in the crust and the core). This gives us
 \begin{align}
-\frac{r}{\rho}\frac{\left(\lambda\hat{\alpha}_{\rm cr}(R_{\rm cc})+2\mu\frac{dU_{\rm cr}(R_{\rm cc})}{dr}\right)}{U_{\rm cr}(R_{\rm cc})}=\tilde{V}\left(1-\frac{\sigma^2r}{g}\frac{V_{\rm co}(R_{\rm cc})}{U_{\rm co}(R_{\rm cc})}\right),
+\frac{r}{\rho}\frac{\left(\lambda\hat{\alpha}+2\mu\frac{dU}{dr}\right)}{U}\biggr\rvert_{r=R_{cc}^{+}}=\tilde{V}\left(1-\frac{\sigma^2r}{g}\frac{V}{U}\right)\biggr\rvert_{r=R_{cc}^{-}},
 \end{align}
-\noindent resulting in two conditions and two eigenvalues, $\Omega$ and $V_{\rm cr}(R_*)$.
+\noindent resulting in two conditions and two eigenvalues, $\Omega$ and $V(R_*)$.
 
 
-\hspace{\parindent}For any mode the boundary conditions at the centre and surface of the star must be obeyed. The condition at the surface is based on the requirement that the Lagrangian pressure perturbation goes to zero at $r=R_*$:
+\hspace{\parindent}Every eigenmode must satisfy the boundary conditions at the centre and surface of the star. The conditions at the surface are based on the requirement that the Lagrangian pressure perturbation goes to zero at the surface:
 \begin{align}
-\frac{1}{\rho}\left(\lambda\hat{\alpha}_{\rm cr}(R_{\rm cc})+2\mu\frac{dU_{\rm cr}(R_*)}{dr}\right)=\tilde{V}\left(\frac{\tilde{V}-c_1\Omega^2-4+\tilde{U}}{\frac{l(l+1)}{c_1\Omega^2}-\tilde{V}}+1\right)\frac{U_{\rm cr}(R_*)}{r},
+\frac{1}{\rho}\left(\lambda\hat{\alpha}+2\mu\frac{dU}{dr}\right)\biggr\rvert_{r=R_{*}}=\tilde{V}\left(\frac{\tilde{V}-c_1\Omega^2-4+\tilde{U}}{\frac{l(l+1)}{c_1\Omega^2}-\tilde{V}}+1\right)\frac{U}{r}\biggr\rvert_{r=R_{*}},
 \label{eq:surface_boundary_modified_1}
 \end{align}
 \begin{align}
-\frac{\mu}{\rho}\left(\frac{dV_{\rm cr}(R_*)}{dr}-\frac{V_{\rm cr}(R_*)}{r}+\frac{U_{\rm cr}(R_*)}{r}\right)=0,
+\frac{\mu}{\rho}\left(\frac{dV}{dr}-\frac{V}{r}+\frac{U}{r}\right)\biggr\rvert_{r=R_{*}}=0,
 \label{eq:surface_boundary_modified_2}
 \end{align}
-\noindent where the equilibrium properties of the star are: 
+\noindent where every quantity is evaluated at the surface of the star ($r=R_*$), and the equilibrium properties of the star are: 
 \begin{align}\nonumber
-\tilde{U}=\frac{d\ln\left(M_r\right)}{d\ln\left(r\right)}=4\pi r^2\rho\frac{r}{M_r},\;\;\;c_1=\left(\frac{r}{R_*}\right)^3\frac{M_*}{M_r},\;\;\;\Omega^2=\frac{\omega^2R_*^3}{GM_*},
+\tilde{U}=\frac{d\ln\left(M_r\right)}{d\ln\left(r\right)}=4\pi r^2\rho\frac{r}{M_r},\;\;\;c_1=\left(\frac{r}{R_*}\right)^3\frac{M_*}{M_r},\;\;\;\Omega^2=\frac{\omega^2R_*^3}{GM_*}.
 \end{align}
-\noindent The condition at the centre follows from the requirement that $U_{\rm co}$ and $V_{\rm co}$ be regular at $r=0$: %Check that U and V being regular is correct (y1 and y2 must be regular, does this mean U and V must be too?)
+\noindent The condition at the centre of the star follows from the requirement that $U$ and $V$ be regular there:
 \begin{align}
-\frac{c_1\Omega^2}{l}\frac{U_{\rm co}(0)}{r}-\frac{\sigma^2V_{\rm co}(0)}{g}=0.
+\left(\frac{c_1\Omega^2}{l}U-\frac{\sigma^2r}{g}V\right)\biggr\rvert_{r=0}=0,
 \label{eq:core_condition}
 \end{align}
+\noindent where every quantity is evaluated at the centre of the star ($r=0$).
 
 
-
-\hspace{\parindent}We solve for the eigenvalues by choosing initial guesses for them and then using the shooting method to go from the core and surface boundary conditions to the crust-core transition. We then adjust the eigenvalues until the jump conditions are satisfied, indicating that a mode has been found. Figure \ref{fig:trace_minima} shows the eigenvalues at which each of the jump conditions are satisfied, with modes being located at the places where they coincide.
+\hspace{\parindent}We used the shooting method to solve for the eigenvalues by choosing their initial trial values and then solving the wave equations for $\frac{dU}{dr}$ and $\frac{dV}{dr}$ to go from the central and surface boundary conditions to the crust-core transition. We then adjusted the trial eigenvalues and repeated until the jump conditions were satisfied, indicating that a mode had been found. Figure \ref{fig:trace_minima} shows the eigenvalues at which each of the jump conditions are satisfied for a specific EoS, with modes being located at the places where both conditions are satisfied.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{minima_31.2_50.0_40.0_f.pdf}
-\caption{The zeros of the error in the jump conditions at the crust-core boundary, showing the location of two modes (the interface and fundamental modes). $z_3(R_*)=\frac{V_{cr}(R_*)}{R_*}$ is the dimensionless transverse displacement. This figure uses $J=31.2$ MeV, $L=50.0$ MeV, and $K_{\rm sym}=40.0$ MeV.}
-\label{fig:trace_minima}  %need to change y axis direction
+\includegraphics[width=0.45\textwidth,angle=0]{minima_30_50_-80.png}
+\caption{The eigenvalues that satisfy the jump conditions at the crust-core boundary, showing the location of two modes (the interface and fundamental modes). This figure uses the EoS parameterised by $J=30$ MeV, $L=50$ MeV, and $K_{\rm sym}=-80$ MeV.}
+\label{fig:trace_minima}
 \end{figure}
+
 
 
 
@@ -511,12 +541,12 @@ U_{\rm cr}(R_{\rm cc})=U_{\rm co}(R_{\rm cc}),
 
 
 \subsection{The Crust-Core Interface Mode}
-\hspace{\parindent}The interface mode shown in figure \ref{fig:2i_mode} has its radial displacement peaking at the crust-core boundary, which is what we would expect because the i-mode is caused by the discontinuity between the crust and core. For this EoS, the eigenvalues of this mode are $\Omega=0.1002$ and $V_{\rm cr}(R_*)=-1.319$ (as can be seen in figure \ref{fig:trace_minima}), giving the mode a frequency of $160.2$ Hz. The transverse displacement in the core is small, while in the crust it discontinuously jumps to become large. This makes the i-mode a good candidate for an RSF because more of its energy will go into deforming the crust, helping it to reach the breaking strain faster.
+\hspace{\parindent}Figure \ref{fig:2i_mode} shows the interface mode for one of the EoSs we have used. This mode has a distinctive peak in its radial displacement at the crust-core boundary, which is what we would expect because the i-mode is caused by the discontinuity between the crust and core. For this EoS, its eigenvalues are $\Omega=0.0805$ and $V(R_*)=-7.72$ (as can be seen in figure \ref{fig:trace_minima}), giving the mode a frequency of $134.3$ Hz. The transverse displacement in the core is small, while in the crust it discontinuously jumps to become large. This makes the i-mode a good candidate for an RSF because more of its energy will go into deforming the crust, helping it to reach the breaking strain faster.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{2i_mode.pdf}
-\caption{The 2i mode for the EoS with $J=31.2$ MeV, $L=50.0$ MeV, and $K_{\rm sym}=40.0$ MeV. $V(r)$ has been reduced by an order of magnitude so that it can be plotted alongside $U(r)$.}
+\includegraphics[width=0.45\textwidth,angle=0]{2i2_30_50_-80.png}
+\caption{The $l=2$ i mode for the EoS parameterised by $J=30$ MeV, $L=50$ MeV, and $K_{\rm sym}=-80$ MeV. $V(r)$ has been reduced by an order of magnitude so that it can be plotted alongside $U(r)$.}
 \label{fig:2i_mode}
 \end{figure}
 
@@ -524,11 +554,11 @@ U_{\rm cr}(R_{\rm cc})=U_{\rm co}(R_{\rm cc}),
 \begin{align}
 \tilde{\mu} = B \mu,
 \end{align}
-\noindent where the constant $B$ was varied to determine its impact on the i-mode. Figure \ref{fig:mu_B} shows the relationship between $B$ and the i-mode frequency. The constant which controls the scaling due to temperature was not varied because for most of the crust $1>>17810\left(\frac{ak_bT}{\left(Ze\right)^2}\right)^2$, meaning that the temperature's impact on the shear modulus is small. Therefore this constant would need to be very large to have a noticeable impact on it. Modifying the shear modulus by varying $B$ is very artificial because it is strongly linked to the equilibrium properties of the star, and so the other properties would also have to be changed for this to be realistic. Therefore, only changing the shear modulus should only be seen as a rough guide to its impact on the frequency.
+\noindent where the constant $B$ was varied to determine its impact on the i-mode. Figure \ref{fig:mu_B} shows the relationship between $B$ and the i-mode frequency. The constant which controls the scaling due to temperature was not varied because we have assumed that the temperature of the star is low and therefore this constant would need to be very large to have a noticeable impact on the shear modulus. Modifying the shear modulus by varying $B$ is very artificial because it is strongly linked to the other equilibrium properties of the star, and so they would also have to be changed to realistically modify the shear modulus. Therefore, changing the shear modulus in this way should only be seen as a rough guide to its impact on the frequency.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{shear_mod_vs_freq_2}
+\includegraphics[width=0.45\textwidth,angle=0]{B_vs_f.png}
 \caption{The change in i-mode frequency caused by scaling the shear modulus with a constant. The red lines indicate the result for $B=1$ (which gives equation \ref{eq:mu_1991}).}
 \label{fig:mu_B}
 \end{figure}
@@ -542,27 +572,27 @@ U_{\rm cr}(R_{\rm cc})=U_{\rm co}(R_{\rm cc}),
 
 
 \section{Results}
-\hspace{\parindent}Figure \ref{fig:f_vs_R_varyJ} shows the relationship between the frequency of the i-mode and both the location of the crust-core transition and the total radius of the star for EoSs with various $J$ values. Figures \ref{fig:f_vs_R_varyL} and \ref{fig:f_vs_R_varyK} show the same, but for various $L$ and $K_{\rm sym}$ values. This figure was created by using the TOV equations to find $R_*$ and $R_{cc}$ for neutron stars with masses between $0.5$ and $2.0$ M$_{\odot}$, and then calculating the i-mode frequency for each of the stars. The $J$ and $L$ values were varied to see how they affect the i-mode and radius of the star. From this we can see that the frequency increases with $J$, $K_{\rm sym}$, and (most of the time) $R_*$. It decreases with $L$ and $M_*$ (which itself decreases with increasing $R_*$), and switches from increasing to decreasing with $R_cc$ around $1.4$ M$_{\odot}$.
-% what can we learn from this figure?
+\hspace{\parindent}Figure \ref{fig:f_vs_R_varyJ} shows the relationship between the frequency of the i-mode and both the location of the crust-core transition and the total radius of the star for EoSs with various $J$ values. Figures \ref{fig:f_vs_R_varyL} and \ref{fig:f_vs_R_varyK} show the same, but for various $L$ and $K_{\rm sym}$ values. This figure was created by using the TOV equations to find $R_*$ and $R_{cc}$ for neutron stars with masses between $0.8$ and $2.0$ M$_{\odot}$, and then calculating the i-mode frequency for each of the stars. The $J$ and $L$ values were varied to see how they affect the i-mode and radius of the star. From this we can see that the frequency increases with $J$, $K_{\rm sym}$, and (most of the time) $R_*$. It decreases with $L$ and $M_*$ (which itself decreases with increasing $R_*$), and switches from increasing to decreasing with $R_{cc}$ around $1.4$ M$_{\odot}$.
+% what can we learn from this figure? (relationship to the bulk properties M* and R*?)
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_Jvary.pdf}
-\caption{The relationship between neutron star radius and i-mode frequency. The figure shows both the total radius (solid lines) and crust-core radius (dashed lines) for each frequency. The stars indicate $1.4$ solar mass neutron stars. Increasing total radius causes the central pressure and total mass to decrease, with each line showing the change in frequency and radius between $0.5$ and $2.0$ solar masses. The three different colours are for three different $J$ values, and $L=50.0$ MeV and $K_{\rm sym}=40.0$ MeV.}
+\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_J_grid.png}
+\caption{The relationship between neutron star radius and i-mode frequency. The figure shows both the total radius (solid lines) and crust-core radius (dashed lines) for each frequency. The stars indicate $1.4$ solar mass neutron stars. Increasing total radius causes the central pressure and total mass to decrease, with each line showing the change in frequency and radius between $0.8$ and $2.0$ solar masses. The three different colours are for three different $J$ values, all of which use $L=50$ MeV and $K_{\rm sym}=-80$ MeV.}
 \label{fig:f_vs_R_varyJ}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_Lvary.pdf}
-\caption{The same as figure \ref{fig:f_vs_R_varyJ}, but the three different colours are for three different $L$ values, and $J=31.2$ MeV and $K_{\rm sym}=40.0$ MeV. The red (middle) lines are the same for both figures.}
+\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_L_grid.png}
+\caption{The same as figure \ref{fig:f_vs_R_varyJ}, but the three different colours are for three different $L$ values, all of which use $J=30$ MeV and $K_{\rm sym}=-80$ MeV. The red (middle) lines are the same for both figures.}
 \label{fig:f_vs_R_varyL}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_Kvary.pdf}
-\caption{The same as figure \ref{fig:f_vs_R_varyJ}, but the different colours are for different $K_{\rm sym}$ values, and $J=31.2$ MeV and $L=50.0$ MeV. The red lines are the same for all three figures.}
+\includegraphics[width=0.45\textwidth,angle=0]{f_Rcc_Rstar_K_grid.png}
+\caption{The same as figure \ref{fig:f_vs_R_varyJ}, but the different colours are for different $K_{\rm sym}$ values, all of which use $J=30$ MeV and $L=50$ MeV. The red lines are the same for all three figures.}
 \label{fig:f_vs_R_varyK}
 \end{figure}
 
@@ -582,17 +612,59 @@ U_{\rm cr}(R_{\rm cc})=U_{\rm co}(R_{\rm cc}),
 
 
 \subsection{Interface Mode dependence on Nuclear Parameters}
-\hspace{\parindent}Unless otherwise stated, our results are for $1.4M_{\odot}$ neutron stars. We calculated the i-mode frequency for our set of EoSs parameterised by $J$, $L$ and $K_{\rm sym}$, and then interpolated between them to obtain frequency contours in the $J,L$ plane. This is shown in figure \ref{fig:freq_contours}, with the two graphs showing either end of a reasonable $K_{\rm sym}$ range. From this we see that changes in $L$ and $K_{\rm sym}$ have larger impacts on the the i-mode frequency than changes in $J$ do. This is what we would expect because the matter in neutron stars is highly asymmetric.
+\hspace{\parindent}Unless otherwise stated, our results are for $1.4M_{\odot}$ neutron stars. The ranges of the symmetry energy parameters for the first set of EoSs that we used were $25\leq J\leq 35$ MeV, $20\leq L\leq 80$ MeV, and $-200\leq K_{\rm sym}\leq 40$ MeV. These ranges were chosen to confidently cover the ranges predicted by other works~\cite{liu2010nuclear,tsang2012constraints,lattimer2013constraining,balantekin2014nuclear}, and so they are very conservative. We interpolated between the i-mode frequencies for these EoSs to find surfaces of constant frequency in the $J$,$L$,$K_{\rm sym}$ parameter space, shown in figure \ref{fig:grid_J_L_K}. 
+
 
 
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{contours_20gap_K40}
-\includegraphics[width=0.45\textwidth,angle=0]{contours_20gap_Km200}
-\caption{Frequency contours in the $J,L$ plane, with the first figure being for $K_{\rm sym}=40$ MeV, and the second for $K_{\rm sym}=-200$ MeV. The gaps between the contours are $20$ Hz. The grid points indicate the results of the EoSs, between which the frequency was interpolated.}
+\includegraphics[width=0.45\textwidth,angle=0]{grid_J_L_K.png}
+\caption{Surfaces of constant i-mode frequency in the $J$,$L$,$K_{\rm sym}$ parameter space for a wide range of symmetry energy parameter values.}
+\label{fig:grid_J_L_K}
+\end{figure}
+
+
+
+
+
+Figure \ref{fig:J_vs_L_vs_f+tc} shows how the frequency changes with $J$ and $L$ for $K_{\rm sym}=-80$ MeV. The time before the merger ($t_c-t$) is related to the chirp mass and the gravitational wave frequency by \citep{blanchet2006gravitational} %check this ref. is okay
+\begin{align}
+t_c-t=\frac{3}{8}t_{GW}=1.76\times 10^{-3}\rm{s}\left(\frac{\mathcal{M}}{1.2M_{\odot}}\right)^{-\frac{5}{3}}\left(\frac{f_{GW}}{1000 \rm{Hz}}\right)^{-\frac{8}{3}}.
+\label{eq:t_before_merger}
+\end{align}
+\noindent We then interpolated between the EoSs to obtain frequency contours in the $J,L$ plane, which are shown in figure \ref{fig:freq_contours}. From this we see that the frequency always increases with increasing $J$ and decreasing $L$, and that changes in $L$ have larger impacts on the the i-mode frequency than changes in $J$. This is what we would expect because the matter in neutron stars is highly asymmetric.
+%ADD ANOTHER CONTOUR PLOT FOR HIGHER K_sym
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth,angle=0]{J_L_f_tc_K-80.png}
+\caption{The frequency of the i-modes for various $J$ and $L$ values, and $K_{\rm sym}=-80$ MeV. On the right axis of the plot are the times before the merger at which the frequencies occur. The dotted lines connect EoSs with the same $L$ values.}
+\label{fig:J_vs_L_vs_f+tc}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth,angle=0]{J_L_contour_K-80.png}
+\caption{Frequency contours in the $J,L$ plane for $K_{\rm sym}=-80$ MeV. The gaps between the contours are $30$ Hz, and the outermost contours are labelled. The grid points indicate the results of the EoSs, between which the frequency was interpolated.}
 \label{fig:freq_contours}
 \end{figure}
+
+
+
+
+%Other K values?
+%JK plane? LK plane?
+
+
+
+
+
+
+
+
+
 
 
 
@@ -617,30 +689,30 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 \delta f\sim t_{\rm res}\Dot{f}_{\rm gw}\sim3.7\text{Hz}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odot}}\right)^{\frac{5}{6}}\left(\frac{f_{\rm mode}}{100 \text{ Hz}}\right)^{\frac{11}{6}}.
 \label{res_timescale}    
 \end{align}
-\noindent From this we see that the resonance window gets larger as the frequency increases, with $\delta f$ scaling as $f_{\rm mode}^{\frac{11}{6}}$. For a resonance at $100$ Hz and a chirp mass of $1.2M_{\odot}$ we get a frequency range of $\delta f\sim 3.7$ Hz, while for $150$ Hz we get a range of $\delta f\sim 7.8$ Hz. This means that the spread of the frequency contour in the $J,L$ plane (which is shown in figure \ref{fig:t_res_spread}) is small ($\delta L\approx 0.5-2.0$ MeV). Therefore the main uncertainty will come from the value of $K_{\rm sym}$, which causes a spread of up to $\sim 20$ MeV in $L$ at any given $J$ value (as can be seen in \ref{fig:freq_contours}).
-%From this we see that the resonance window gets smaller as the frequency increases, giving a smaller range over which the resonance will be spread. For a resonance at $100$ Hz and a chirp mass of $1M_{\odot}$, $t_{\rm res}\sim 0.093$ s which gives a frequency range of $\delta f\sim 3.15$ Hz. This means that the spread of the contour in the $J,L$, which is shown in figure \ref{fig:t_res_spread} is small, and so the main uncertainty will come from the value of $K_{\rm sym}$, which causes a spread of up to $\sim 20$ MeV in $L$ at any given $J$ value.
-%I've used t_res*df/dt to get $\delta$ f, which would give $\delta$ f proportional to f^(11/6). Is this correct?
+\noindent From this we see that the resonance window gets larger as the frequency increases, with $\delta f$ scaling as $f_{\rm mode}^{\frac{11}{6}}$. For a chirp mass of $1.2M_{\odot}$ and a resonance at $100$ Hz, we get a frequency range of $\delta f\sim 3.7$ Hz, and for a resonance at $160$ Hz we get a range of $\delta f\sim 8.8$ Hz. This means that the spread of the frequency contours in the $J,L$ plane (which is shown in figure \ref{fig:t_res_spread}) is quite small ($\delta L\lesssim 5$ MeV), and therefore the impact of the resonance window is significantly less than that of the $K_{\rm sym}$ range, which causes a spread of around $\sim 20$ MeV in $L$ at any given $J$ value (as can be seen from how the contours change between the three plots of figure \ref{fig:freq_contours}). It should be noted that this is a very conservative estimate, and that by more accurately calculating both the rate at which energy is transferred into the modes and the breaking strain of the crust, this uncertainty could be significantly reduced by calculating the time it takes for the crust to shatter.
+
+
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{f100_f150_tres_2.pdf}
-\caption{Frequency contours in the $J,L$ plane for $K_{\rm sym}$. The black line is for $f=100$ Hz, and the red lines are for $f=100+\delta f$ Hz. The green line is for $f=150$ Hz, and the blue lines are for $f=150+\delta f$ Hz.}
+\includegraphics[width=0.45\textwidth,angle=0]{JL_spread_due_to_df_grid_nonucl.png}
+\caption{Frequency contours in the $J,L$ plane for $K_{\rm sym}=-80$ MeV that have been spread by the resonance window.}
 \label{fig:t_res_spread}
 \end{figure}
 
-\hspace{\parindent}Figure \ref{fig:M_vs_f} shows that neutron stars with different masses will have different i-mode frequencies, with more massive stars having lower frequencies. This means that, for a specific star, the i-mode frequency will have some degree of uncertainty propagated from the uncertainty in its mass measurement. Figure \ref{fig:vary_mass_contours} shows an example of how this uncertainty affects the $J,L$ constraints. In order to get a reasonable range for the mass uncertainty, the mass values used were taken from the low spin ranges for the stars in GW170817~\citet{abbott2017merger}. The difference between the contours' $L$ values at any given $J$ value is $1-1.5$ MeV. Improved measurements of NS mass would help to reduce this uncertainty, giving us a better constraint.
+\hspace{\parindent}Figure \ref{fig:M_vs_f} shows that neutron stars with different masses will have different i-mode frequencies, with more massive stars having lower frequencies. This means that, for a specific star, the i-mode frequency will have some degree of uncertainty propagated from the uncertainty in its mass measurement. Figure \ref{fig:vary_mass_contours} shows an example of how this uncertainty affects the $J,L$ constraints. In order to get a reasonable range for the mass uncertainty, the mass values used were taken from the low spin ranges for the stars in GW170817~\citet{abbott2017merger}. The difference between the contours' $L$ values at any given $J$ value is $0.7-2.3$ MeV. Improved measurements of NS mass would help to reduce this uncertainty, giving us a better constraint.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{M_vs_f}
-\caption{The relationship between NS mass and the i-mode frequency for $J=31.2$ MeV, $L=50.0$ MeV, and $K_{\rm sym}=40.0$ MeV.}
+\includegraphics[width=0.45\textwidth,angle=0]{M_vs_f_30_50_-80.png}
+\caption{The relationship between NS mass and the i-mode frequency for $J=30$ MeV, $L=50$ MeV, and $K_{\rm sym}=-80$ MeV.}
 \label{fig:M_vs_f}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{K40_f150_Mcomp.pdf}
-\caption{The effect of changing the total NS mass on the symmetry energy parameters that give a frequency of $150$ Hz for $K_{\rm sym} =40$ MeV.}
+\includegraphics[width=0.45\textwidth,angle=0]{Mcomp_f160_30_50_-80.png}
+\caption{The effect of changing the total NS mass on the symmetry energy parameters that give a frequency of $160$ Hz for $K_{\rm sym}=-80$ MeV.}
 \label{fig:vary_mass_contours}
 \end{figure}
 
@@ -653,7 +725,7 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 
 \section{Discussion}
 %first sentence is repeated. I think it fits better here, so remove/change the earlier occurrence.
-\hspace{\parindent}Far from symmetry we would expect higher order symmetry energy parameters ($L$, $K_{\rm sym}$) to have a stronger impact on the frequency than lower order terms ($J$). From figure \ref{fig:freq_contours} this does seem to be the case, with the contours covering a wide range of $J$ values and a smaller range of $L$ values. $K_{\rm sym}$ also has a significant impact on the i-mode frequencies, with the extremes of our $K_{\rm sym}$ range having a difference of $\Delta L\sim 20$ MeV for the same $J$ values. Figure \ref{fig:constraints} shows contours for supposed detections of RSFs at $100$ Hz and $150$ Hz, with the two contours for each frequency showing the upper and lower bounds of the $K_{\rm sym}$ range. $100-150$ Hz was chosen because the precursor occurs roughly half a second before the merger~\citet{zhong2019precursors}, and half a second before the merger, the frequency of GW170817 was $~100-150$ Hz~\citet{abbott2017merger}.
+\hspace{\parindent}Far from symmetry we would expect higher order symmetry energy parameters ($L$, $K_{\rm sym}$) to have a stronger impact on the frequency than lower order terms ($J$). From figure \ref{fig:freq_contours} this does seem to be the case, with the contours covering a wide range of $J$ values and a smaller range of $L$ values. $K_{\rm sym}$ also has a significant impact on the i-mode frequencies, with the extremes of our $K_{\rm sym}$ range having a difference of $\Delta L\sim 20$ MeV for the same $J$ values. Figure \ref{fig:constraints} shows contours for supposed detections of RSFs at several different frequencies, with the ranges for each frequency showing the effect of the $K_{\rm sym}$ range. We would expect the frequency of a precursor flare to be $\sim 100-150$ Hz, because precursor flares tend to occur roughly half a second before the merger~\citet{zhong2019precursors}, and half a second before the merger, the frequency of GW170817 was $\sim 100-150$ Hz~\citet{abbott2017merger}.
 
 \hspace{\parindent}....................................
 
@@ -664,19 +736,18 @@ t_{\rm res}\sim 8\times10^{-2}\text{s}\left(\frac{\mathcal{M}}{1.2\text{M}_{\odo
 
 
 \subsection{Comparisons to other constraints}
-\hspace{\parindent}There are many different constraints on the symmetry energy parameters that can be found from various properties of nuclei, such as the their masses~\citet{kortelainen2010nuclear} and neutron skins~\citet{chen2010density}. By plotting these constraints together, the symmetry energy parameters $J$ and $L$ can be constrained to a small range of values~\citet{balantekin2014nuclear}. This range is shown in figure \ref{fig:constraints} alongside the contours for RSFs at $100$ Hz and $150 Hz$.
-From this figure we see that for an i-mode frequency of $100$ Hz, our constraint has a similar $L$ uncertainty as the nuclear constraints, and so a detection at this value would help provide evidence the currently known constraints on $J$ and $L$. However, for an i-mode frequency of $150$ Hz, the constraint is shifted to significantly lower L values. Therefore a detection of a precursor at $150$ Hz would improve the previous constraints on $J$ and $L$ to approximately $J\approx 30.75\pm 1.65$ MeV, $L\approx 48\pm 7$ MeV. In general, these results prefer $L$ values towards to lower end of the previous constrains. %Cite Lattimer and mention that the dipole polarisability is wrong?
+\hspace{\parindent}There are many different constraints on the symmetry energy parameters that can be found from various properties of nuclei, such as the their masses~\citet{kortelainen2010nuclear} and neutron skins~\citet{chen2010density}. By plotting these constraints together, the symmetry energy parameters $J$ and $L$ can be constrained to a small range of values~\citet{balantekin2014nuclear}. This range is shown in figure \ref{fig:constraints} alongside the contours for RSFs at several different frequencies. From this figure we see that for an i-mode frequency of $160$ Hz, our constraint has a similar $L$ uncertainty as the nuclear constraints, and so a detection at this value would help provide evidence the currently known constraints on $J$ and $L$. However, for an i-mode frequency of $200$ Hz, the constraint is shifted to significantly lower L values and therefore a detection of a precursor at $200$ Hz would improve the previous constraints on $J$ and $L$ because of the smaller overlap with the nuclear constraints. %Cite Lattimer and mention that the dipole polarisability is wrong?
 % on the graph of constraints in the J,L plane, my results are similar to those for dipole polarisability
 % constrain K using the J,L values?
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{constraints_rough_2}
-\caption{<Very rough, replace later> Range in $J,L$ due to the range of $K_{sym}$ values. The upper bound is for K=40 MeV, and the lower bound is for K=-200 MeV.}
+\includegraphics[width=0.45\textwidth,angle=0]{JL_spread_due_to_Ksym_grid.png}
+\caption{Spread in the $J,L$ contours due to the range of $K_{\rm sym}$ values. The upper bound is for K=40 MeV, and the lower bound is for K=-200 MeV.}
 \label{fig:constraints}
 \end{figure}
 
-\hspace{\parindent}Figure \ref{fig:all_constraints} shows the combination of: the spread in frequency due to $t_{\rm res}$, the range in $L$ due to the uncertainty in stellar mass, and the spread in $L$ due to the range of $K_sym$ values used. This figure shows the most conservative estimate of the $J$, $L$ constraints, with the upper bounds using $M_*=1.17$ M$_{\odot}$, $f\rightarrow f-\delta f$ Hz, and $K_{sym}=40$ MeV and the lower bounds using $M_*=1.36$ M$_{\odot}$, $f\rightarrow f+\delta f$ Hz, and $K_{sym}=-200$ MeV. The ranges shown in this figure are slightly different to figure \ref{fig:constraints}, but the main uncertainty is the $K_{sym}$ range.
+\hspace{\parindent}Figure \ref{fig:all_constraints} shows the combination of the spread in frequency due to $t_{\rm res}$ and the spread in $L$ due to the range of $K_{\rm sym}$ values used. This figure shows the most conservative estimate of the $J$, $L$ constraints, with the upper bounds using $f\rightarrow f-\delta f$ Hz and $K_{\rm sym}=40$ MeV, and the lower bounds using $f\rightarrow f+\delta f$ Hz and $K_{\rm sym}=-200$ MeV. The ranges shown in this figure are slightly different to figure \ref{fig:constraints}, but the main uncertainty is the $K_{\rm sym}$ range.
 
 
 
@@ -684,8 +755,8 @@ From this figure we see that for an i-mode frequency of $100$ Hz, our constraint
 %figure that combines all uncertainties (K_sym value, NS mass, t_res range), explain this one in text.
 \begin{figure}
 \centering
-\includegraphics[width=0.45\textwidth,angle=0]{K_M_tres_ranges.pdf}
-\caption{<Very rough, replace later> Combines the ranges from figures \ref{fig:t_res_spread}, \ref{fig:vary_mass_contours}, and \ref{fig:constraints}.} %Upper bound is K=40 MeV, lower bound is K=-200 MeV.
+\includegraphics[width=0.45\textwidth,angle=0]{JL_spread_due_to_Ksym_and_df_grid_280.png}
+\caption{Combines the ranges from figures \ref{fig:t_res_spread} and \ref{fig:constraints}.}
 \label{fig:all_constraints}
 \end{figure}
 
