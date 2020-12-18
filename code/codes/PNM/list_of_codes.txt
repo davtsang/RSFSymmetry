@@ -1,0 +1,15 @@
+eqbm.c                                  module containing the equilibrium properties of the star used in the mode-finding code
+find_f.c                                uses the frequencies of the EoSs' i-modes to get a frequency contour in the J,L plane (for the input K value)
+nr_codes.c                              functions taken from numerical recipies in c (variable step size RK4, cubic splines, linear interpolation)
+shoot.c                                 functions to use the shooting method to solve the differential equations, starting from the surface and core and shooting to the crust-core boundary
+shoot_r.c                               a backup of shoot.c, using rd/dr for the differential equations
+shoot_x.c                               a backup of shoot.c, using (1+Vtilde)d/dx for the differential equations
+star_data_mcd_newton.c                  uses the outputs of the TOV for William Newton's J,L,K parameterised EoSs to find a mode close to the chosen initial trial values for Omega and z3(R*)
+star_data_mcd_newton_repeat.c           similar to star_data_mcd_newton.c, but modified to be used in star.sh to loop over all of the EoSs in this set.
+TOV_data_newton_2spline.c               Solves the TOV equations for the EoS with the chosen J, L and Ksym values, for the chosen mass. Uses seperate cubic splines for the core and crust to avoid problems at the discontinuous crust-core boundary. Has a section that can be un-commented to instead print out the M*(R*) graph.
+TOV_data_newton_2spline_repeat.c        similar to TOV_data_newton_2spline.c, but modified to be used in star.sh to loop over all of the EoSs in this set.
+find_f_JL.sh                            Loops over many K and f input values for find_f.c, and puts the resulting contours in clearly labelled files (may need to make some changes in find_f.c, see comments in find_f.c)
+find_f_JK.sh                            Loops over many L and f input values for find_f.c, and puts the resulting contours in clearly labelled files (may need to make some changes in find_f.c, see comments in find_f.c)
+find_f_LK.sh                            Loops over many J and f input values for find_f.c, and puts the resulting contours in clearly labelled files (may need to make some changes in find_f.c, see comments in find_f.c)
+find_f.sh                               A backup of find_f_JL.sh,find_f_JK.sh, and find_f_LK.sh
+star.sh                                 Loops over the EoSs in this set to find the i-mode frequency for each of them (for the chosen mass) (the output should be diverted into a text file (./star.sh > output.txt)) (the commented out lines should be used if your EoSs have a header or go below rho=10^4 g/cm^3, as these will mess up the TOV and mode-finding codes)
