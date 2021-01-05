@@ -1,0 +1,5 @@
+gnuplot> FILES = system("ls -1 f160*.txt")                                                                                             
+gnuplot> FILES2 = system("ls -1 ../contours_J_b12/f160*.txt")                                                                                             
+gnuplot> FILES3 = system("ls -1 ../contours_a0_b12/f160*.txt")                                                                                             
+gnuplot> splot for [data in FILES] data using 1:2:3 with lines lt -1 title "", for [data in FILES2] data using 1:2:3 with lines lt -1 title "", for [data in FILES3] data using 1:2:3 with lines lt -1 title "", "../planes/160.txt" with lines title ""
+

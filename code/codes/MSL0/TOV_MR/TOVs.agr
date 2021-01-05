@@ -1,0 +1,5114 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 14 to "Courier-Regular", "Courier-Regular"
+@map font 15 to "Dingbats-Regular", "Dingbats-Regular"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 20 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 21 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 22 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 23 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 24 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 25 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 26 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 27 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 28 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 29 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 30 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 31 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 32 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 33 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 34 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 35 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 36 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 42 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 43 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 44 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 45 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 46 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 47 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 48 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 49 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 50 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 51 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 52 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 53 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 54 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 55 to "Utopia-Bold", "Utopia-Bold"
+@map font 56 to "Utopia-BoldItalic", "Utopia-BoldItalic"
+@map font 57 to "Utopia-Italic", "Utopia-Italic"
+@map font 58 to "Utopia-Regular", "Utopia-Regular"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Thu Dec  3 14:38:59 2020"
+@with string
+@    string on
+@    string loctype view
+@    string 0.96, 0.3
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "R\s*\N"
+@with string
+@    string on
+@    string loctype view
+@    string 0.22, 0.3
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "R\scc\N"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 8, 0, 14, 2.40001
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 2.0
+@    xaxis  label "Radius (Km)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.500000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 1
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 2.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 2.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.500000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 2.0
+@    yaxis  label "Stellar mass (solar masses)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.500000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.4
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 2.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 2.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.500000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.825, 0.85
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 2.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.250000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 4
+@    s0 symbol pattern 1
+@    s0 symbol fill color 4
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 4
+@    s0 line linewidth 2.0
+@    s0 line color 4
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 4
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "TOV_MR/TOV_29_50_MRcc.txt"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 4
+@    s1 symbol pattern 1
+@    s1 symbol fill color 4
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 2.0
+@    s1 line color 4
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 4
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "TOV_MR/TOV_29_50_MRstar.txt"
+@    s1 legend  "J=29, L=50 MeV"
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 2
+@    s2 symbol pattern 1
+@    s2 symbol fill color 2
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 4
+@    s2 line linewidth 2.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 2
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "TOV_MR/TOV_30_40_MRcc.txt"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 2
+@    s3 symbol pattern 1
+@    s3 symbol fill color 2
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 2.0
+@    s3 line color 2
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 2
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "TOV_MR/TOV_30_40_MRstar.txt"
+@    s3 legend  "J=30, L=40 MeV"
+@    s4 hidden false
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 1
+@    s4 symbol pattern 1
+@    s4 symbol fill color 1
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 4
+@    s4 line linewidth 2.0
+@    s4 line color 1
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 1
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "TOV_MR/TOV_30_50_MRcc.txt"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 1
+@    s5 symbol pattern 1
+@    s5 symbol fill color 1
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 2.0
+@    s5 line color 1
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 1
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "TOV_MR/TOV_30_50_MRstar.txt"
+@    s5 legend  "J=30, L=50 MeV"
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 15
+@    s6 symbol pattern 1
+@    s6 symbol fill color 15
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 4
+@    s6 line linewidth 2.0
+@    s6 line color 15
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 15
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "TOV_MR/TOV_30_60_MRcc.txt"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 15
+@    s7 symbol pattern 1
+@    s7 symbol fill color 15
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 2.0
+@    s7 line color 15
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 15
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "TOV_MR/TOV_30_60_MRstar.txt"
+@    s7 legend  "J=30, L=60 MeV"
+@    s8 hidden false
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 11
+@    s8 symbol pattern 1
+@    s8 symbol fill color 11
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 4
+@    s8 line linewidth 2.0
+@    s8 line color 11
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 11
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "TOV_MR/TOV_31_50_MRcc.txt"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 11
+@    s9 symbol pattern 1
+@    s9 symbol fill color 11
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 2.0
+@    s9 line color 11
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 11
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "TOV_MR/TOV_31_50_MRstar.txt"
+@    s9 legend  "J=31, L=50 MeV"
+@target G0.S0
+@type xy
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+0.566347 5.6e-05
+0.804549 0.00016
+0.986378 0.000295
+1.146686 0.000464
+1.269953 0.000631
+1.394103 0.000836
+1.497994 0.001039
+1.601108 0.00127
+1.698138 0.001517
+1.789903 0.001778
+1.86534 0.002015
+1.944192 0.002284
+2.023234 0.002577
+2.092053 0.002853
+2.168045 0.003178
+2.22924 0.00346
+2.294026 0.003774
+2.358014 0.004104
+2.420578 0.004444
+2.476084 0.004762
+2.532472 0.005101
+2.588122 0.005451
+2.638405 0.005782
+2.69112 0.006142
+2.742138 0.006505
+2.790624 0.006864
+3.228321 0.010743
+3.586048 0.014883
+3.890178 0.019199
+4.158992 0.023692
+4.387692 0.0281
+4.595052 0.032585
+4.781511 0.037058
+4.950303 0.041497
+5.103183 0.045868
+5.248108 0.050305
+5.373411 0.054466
+5.495366 0.058728
+5.602355 0.062741
+5.704038 0.066744
+5.798826 0.070669
+5.889366 0.074576
+5.969586 0.078254
+6.045795 0.081885
+6.118676 0.085482
+6.187295 0.089018
+6.253783 0.092559
+6.318588 0.096114
+6.382539 0.099708
+6.439341 0.103097
+6.506245 0.106934
+6.557755 0.110232
+6.606754 0.113477
+6.659381 0.116912
+6.710169 0.120318
+6.760146 0.123733
+6.806312 0.127028
+6.852704 0.130369
+6.898363 0.133715
+6.94159 0.136987
+6.984771 0.14029
+7.0259 0.14353
+7.066202 0.146762
+7.106568 0.150023
+7.144538 0.153199
+7.181944 0.156373
+7.218569 0.159532
+7.25434 0.162673
+7.289683 0.165814
+7.323605 0.168905
+7.356754 0.171977
+7.389575 0.17505
+7.421914 0.178117
+7.453484 0.181161
+7.486061 0.184273
+7.515688 0.187248
+7.543257 0.19013
+7.572883 0.193133
+7.604954 0.196279
+7.628404 0.198979
+7.656006 0.201912
+7.683754 0.204865
+7.708907 0.207687
+7.735012 0.210571
+7.762719 0.213554
+7.785851 0.216294
+7.81089 0.219148
+7.835679 0.221998
+7.85857 0.224749
+7.881181 0.227491
+7.905548 0.230341
+7.926309 0.232991
+7.948558 0.235734
+7.971019 0.238495
+7.993662 0.241274
+8.013795 0.243912
+8.034533 0.246592
+8.055037 0.249262
+8.075186 0.251917
+8.097508 0.254708
+8.115956 0.257271
+8.134642 0.259852
+8.154326 0.262498
+8.172997 0.265087
+8.192302 0.267719
+8.209502 0.270225
+8.227203 0.272765
+8.245434 0.275341
+8.263016 0.277881
+8.280393 0.280411
+8.297227 0.28291
+8.316621 0.285574
+8.3335 0.288082
+8.348021 0.290441
+8.365895 0.293018
+8.380597 0.295393
+8.531089 0.319465
+8.665537 0.342593
+8.787229 0.364897
+8.898499 0.386477
+8.998123 0.407214
+9.090562 0.427376
+9.176387 0.446972
+9.256416 0.466038
+9.330065 0.484507
+9.399117 0.502501
+9.463925 0.520035
+9.524621 0.537111
+9.582086 0.553794
+9.636473 0.57009
+9.687029 0.58593
+9.735569 0.601466
+9.781462 0.616641
+9.824895 0.63147
+9.866118 0.645972
+9.905736 0.660202
+9.943388 0.674126
+9.97913 0.687751
+10.013336 0.70111
+10.046145 0.714216
+10.077913 0.727104
+10.107837 0.739701
+10.139669 0.752359
+10.168412 0.764612
+10.191083 0.776173
+10.216616 0.787891
+10.241981 0.799484
+10.264739 0.810716
+10.288043 0.821894
+10.309487 0.832786
+10.331693 0.84365
+10.35122 0.854149
+10.370786 0.864552
+10.389979 0.874821
+10.408357 0.884912
+10.426771 0.894913
+10.444689 0.904773
+10.459923 0.914272
+10.476009 0.923767
+10.491928 0.933157
+10.506486 0.942323
+10.52179 0.95148
+10.535407 0.960382
+10.549039 0.969204
+10.563368 0.978017
+10.575624 0.986538
+10.587912 0.994985
+10.59989 1.003323
+10.611426 1.011541
+10.622915 1.01968
+10.635813 1.027893
+10.645168 1.035667
+10.655626 1.043485
+10.665311 1.051153
+10.676581 1.058919
+10.684888 1.066308
+10.694065 1.073723
+10.703067 1.081055
+10.712058 1.088321
+10.720417 1.095458
+10.728713 1.102528
+10.737142 1.109555
+10.744673 1.116435
+10.752514 1.123296
+10.760022 1.130071
+10.767265 1.136767
+10.774276 1.14339
+10.782812 1.150125
+10.788461 1.156505
+10.794609 1.16289
+10.801049 1.169258
+10.807793 1.175613
+10.813501 1.18181
+10.819496 1.187992
+10.825377 1.194117
+10.831315 1.200203
+10.836843 1.206201
+10.842149 1.212132
+10.847671 1.218043
+10.852663 1.223854
+10.858662 1.229732
+10.862783 1.235365
+10.86751 1.241022
+10.872331 1.24665
+10.876865 1.252206
+10.88149 1.257732
+10.921438 1.310223
+10.953066 1.358306
+10.978103 1.402534
+10.997868 1.443372
+11.013197 1.481187
+11.023806 1.516191
+11.031898 1.548839
+11.0373 1.579298
+11.040693 1.607808
+11.041823 1.634486
+11.041808 1.659586
+11.039654 1.683112
+11.036642 1.70531
+11.0325 1.726242
+11.027543 1.746027
+11.02173 1.764736
+11.015262 1.782458
+11.008031 1.799245
+11.00038 1.81519
+10.992278 1.830341
+10.984317 1.844811
+10.974938 1.858471
+10.965802 1.871543
+10.956281 1.883996
+10.946664 1.895893
+10.937161 1.90729
+10.926992 1.918129
+10.916628 1.928489
+10.906288 1.938418
+10.895883 1.947929
+10.885487 1.957052
+10.874914 1.965786
+10.864346 1.974169
+10.853702 1.982211
+10.843136 1.989943
+10.832276 1.997342
+10.821656 2.004478
+10.810875 2.011322
+10.800124 2.017906
+10.789846 2.024291
+10.778865 2.030361
+10.768152 2.036231
+10.757493 2.041887
+10.747149 2.047367
+10.736395 2.052603
+10.725843 2.057666
+10.715405 2.062557
+10.704976 2.067272
+10.694546 2.071816
+10.684251 2.07621
+10.673966 2.080448
+10.663717 2.084538
+10.653534 2.08849
+10.643408 2.092307
+10.633704 2.096033
+10.623537 2.099581
+10.613446 2.103011
+10.603555 2.106341
+10.593929 2.109582
+10.583949 2.112674
+10.574276 2.115689
+10.564574 2.118596
+10.55501 2.121416
+10.545518 2.124145
+10.536086 2.126786
+10.526649 2.129334
+10.517335 2.131807
+10.50801 2.134192
+10.498864 2.136513
+10.489635 2.138744
+10.480554 2.140911
+10.471558 2.143011
+10.462567 2.145037
+10.453692 2.147002
+10.444817 2.148897
+10.436031 2.150733
+10.427477 2.152525
+10.418682 2.154229
+10.410062 2.155887
+10.401543 2.157494
+10.393027 2.159041
+10.384593 2.160539
+10.376252 2.161989
+10.367964 2.16339
+10.359757 2.164745
+10.351493 2.166042
+10.343335 2.167298
+10.335249 2.168512
+10.327357 2.169697
+10.319224 2.170811
+10.242233 2.180026
+10.17001 2.186095
+10.102163 2.189737
+10.038415 2.1915
+9.978069 2.19176
+9.920887 2.19084
+9.866638 2.188986
+9.815219 2.186406
+9.766545 2.183262
+9.719689 2.17961
+9.675216 2.175614
+9.632758 2.171332
+9.59206 2.166819
+9.55323 2.162147
+9.51584 2.15733
+9.47993 2.152418
+9.445492 2.147444
+9.41242 2.142432
+9.380492 2.137389
+9.349756 2.132341
+9.320125 2.127299
+9.291528 2.122275
+9.263906 2.117276
+9.237214 2.112311
+9.211409 2.107386
+9.18653 2.102514
+9.16227 2.097676
+9.138799 2.092894
+9.116067 2.088168
+9.094064 2.083502
+9.072666 2.078891
+9.051916 2.074341
+9.03173 2.069849
+9.012129 2.065418
+8.993157 2.061055
+8.974552 2.056741
+8.956674 2.052504
+8.938944 2.048304
+8.921836 2.044176
+8.905176 2.040107
+8.888923 2.036096
+8.873115 2.032147
+8.85778 2.02826
+8.842625 2.024416
+8.828021 2.020641
+8.813998 2.016938
+8.799629 2.01324
+8.785896 2.009618
+8.772591 2.006056
+8.759525 2.002541
+8.74673 1.999075
+8.734253 1.995661
+8.722053 1.992296
+8.710096 1.988978
+8.698433 1.98571
+8.68706 1.98249
+8.67618 1.979333
+8.664922 1.976179
+8.654129 1.973085
+8.643672 1.970042
+8.63331 1.967032
+8.62324 1.96407
+8.613369 1.961148
+8.603676 1.958265
+8.594144 1.955419
+8.584902 1.952618
+&
+@target G0.S1
+@type xy
+671.82546 0.617225
+681.58616 0.619134
+691.58144 0.620952
+701.85888 0.622692
+712.44678 0.624364
+723.37438 0.625978
+734.66609 0.627545
+746.30325 0.629071
+758.32606 0.630565
+770.73683 0.632032
+783.55799 0.633479
+796.76573 0.634911
+810.38024 0.636332
+824.43137 0.637747
+838.93198 0.639157
+853.81833 0.640565
+869.16311 0.641972
+884.98937 0.643379
+901.3004 0.644786
+918.04592 0.646193
+935.37543 0.6476
+953.11268 0.649003
+971.42415 0.650406
+990.31737 0.651806
+1009.804 0.653204
+1029.9119 0.6546
+1050.6712 0.655993
+1072.112 0.657384
+1094.3027 0.658775
+1117.1746 0.660167
+1140.8688 0.661561
+1165.4137 0.66296
+1190.7268 0.664365
+1216.7874 0.665772
+1243.9057 0.667199
+1272.0535 0.668648
+1301.2431 0.670116
+1331.5383 0.671609
+1362.8901 0.673129
+1395.5449 0.674679
+1429.3608 0.676262
+1464.5383 0.677878
+1501.1107 0.679529
+1539.1081 0.681214
+1578.5558 0.682934
+1619.6587 0.684688
+1662.2275 0.686474
+1706.6102 0.68829
+1752.86 0.69013
+1800.8379 0.691976
+1850.6298 0.693809
+1902.4138 0.695602
+1956.2611 0.697315
+2012.2716 0.698895
+2070.5137 0.700272
+2131.2315 0.701362
+2194.5277 0.702068
+2260.7857 0.702276
+2330.1768 0.701867
+2403.2225 0.700713
+2480.3563 0.698684
+2562.1372 0.695645
+2649.1271 0.691453
+2742.0204 0.68594
+2841.583 0.678904
+2948.6762 0.6701
+3064.7599 0.659181
+3192.3746 0.645711
+3333.5301 0.629247
+3490.3139 0.60928
+3665.8851 0.585189
+3862.8259 0.556149
+4084.1512 0.521002
+4330.8352 0.478085
+4598.6104 0.425028
+4846.9695 0.358275
+4956.9901 0.273045
+4448.0032 0.172588
+2628.7091 0.102616
+1294.4403 0.084772
+771.76598 0.080594
+533.36483 0.079147
+402.82813 0.07856
+321.97392 0.078348
+267.49097 0.078335
+228.51245 0.078442
+199.36396 0.078629
+176.78553 0.078871
+158.83513 0.079155
+144.23364 0.07947
+132.14516 0.07981
+121.98124 0.08017
+70.337701 0.084385
+50.979584 0.089079
+41.003233 0.093927
+34.977602 0.098808
+30.97 0.103661
+28.125507 0.10845
+26.009402 0.113154
+24.378126 0.117758
+23.085001 0.122254
+22.03615 0.126637
+21.169601 0.130904
+20.442327 0.135054
+19.823626 0.139088
+19.291108 0.143006
+18.828059 0.146811
+18.42187 0.150504
+18.062617 0.154088
+17.742582 0.157567
+17.455165 0.16095
+17.191438 0.164299
+16.948131 0.167627
+16.72319 0.170933
+16.514702 0.174218
+16.320998 0.177483
+16.140658 0.180727
+15.972406 0.183952
+15.81517 0.187156
+15.66791 0.19034
+15.529782 0.193504
+15.399966 0.196649
+15.277812 0.199774
+15.162674 0.20288
+15.05397 0.205967
+14.951225 0.209035
+14.854002 0.212085
+14.761852 0.215117
+14.67441 0.218131
+14.591384 0.221127
+14.512413 0.224105
+14.437243 0.227066
+14.36562 0.230011
+14.297315 0.232938
+14.232098 0.235849
+14.169786 0.238743
+14.110213 0.241622
+14.053193 0.244484
+13.99857 0.247331
+13.946222 0.250162
+13.896009 0.252978
+13.847812 0.255779
+13.801517 0.258565
+13.757021 0.261336
+13.714234 0.264093
+13.673059 0.266835
+13.6334 0.269564
+13.595197 0.272278
+13.558361 0.274979
+13.522852 0.277666
+13.488578 0.28034
+13.455495 0.283
+13.423528 0.285648
+13.392644 0.288282
+13.362782 0.290904
+13.333903 0.293513
+13.305953 0.296109
+13.278899 0.298693
+13.252698 0.301266
+13.227317 0.303826
+13.202714 0.306374
+13.178861 0.30891
+13.15572 0.311435
+13.133283 0.313948
+13.111503 0.31645
+13.090347 0.31894
+13.069805 0.32142
+13.049848 0.323888
+13.030449 0.326346
+13.011592 0.328793
+12.993266 0.331229
+12.975433 0.333654
+12.958083 0.33607
+12.941192 0.338475
+12.924758 0.340869
+12.90875 0.343254
+12.893156 0.345628
+12.877966 0.347993
+12.863169 0.350348
+12.84874 0.352693
+12.834671 0.355028
+12.820958 0.357354
+12.700648 0.380109
+12.604996 0.402004
+12.527648 0.423109
+12.464151 0.443503
+12.411385 0.463292
+12.367172 0.482501
+12.32981 0.501167
+12.298016 0.51932
+12.270771 0.53699
+12.247282 0.554202
+12.226922 0.570981
+12.209182 0.587347
+12.193644 0.603322
+12.179974 0.618924
+12.167894 0.634169
+12.157174 0.649074
+12.14762 0.663654
+12.139071 0.677921
+12.131392 0.69189
+12.124463 0.705571
+12.118188 0.718977
+12.112485 0.732117
+12.107279 0.745002
+12.102506 0.757641
+12.098113 0.770042
+12.094057 0.782214
+12.09029 0.794164
+12.08678 0.805901
+12.083496 0.81743
+12.080412 0.828759
+12.077502 0.839894
+12.074745 0.850841
+12.072124 0.861606
+12.069619 0.872194
+12.06722 0.88261
+12.064909 0.89286
+12.062678 0.902948
+12.060516 0.912878
+12.058414 0.922655
+12.056364 0.932283
+12.054359 0.941766
+12.05239 0.951108
+12.050457 0.960312
+12.048548 0.969382
+12.046666 0.978322
+12.0448 0.987134
+12.042949 0.995823
+12.041112 1.004389
+12.039284 1.012838
+12.037461 1.021171
+12.035643 1.029391
+12.033828 1.037501
+12.032013 1.045503
+12.030197 1.0534
+12.028378 1.061194
+12.026555 1.068887
+12.024728 1.076481
+12.022893 1.083979
+12.021052 1.091383
+12.019204 1.098695
+12.017347 1.105916
+12.015482 1.113048
+12.013608 1.120093
+12.011722 1.127052
+12.009827 1.13393
+12.007922 1.14073
+12.00601 1.147458
+12.004091 1.154117
+12.002169 1.160707
+12.000243 1.16723
+11.998312 1.173687
+11.996379 1.180078
+11.994443 1.186406
+11.992506 1.192671
+11.990564 1.198873
+11.988623 1.205015
+11.986679 1.211097
+11.984733 1.217119
+11.982786 1.223083
+11.980837 1.22899
+11.978884 1.234841
+11.976932 1.240636
+11.974977 1.246376
+11.97302 1.252062
+11.971061 1.257695
+11.969101 1.263275
+11.967139 1.268804
+11.965174 1.274281
+11.963208 1.279709
+11.961239 1.285087
+11.941443 1.336289
+11.921439 1.383226
+11.901245 1.426416
+11.880889 1.466295
+11.860408 1.503231
+11.839844 1.537536
+11.819234 1.56948
+11.798617 1.599294
+11.778025 1.627181
+11.757488 1.653316
+11.737031 1.677855
+11.716678 1.700935
+11.696447 1.722676
+11.676355 1.743187
+11.656414 1.762564
+11.636637 1.780894
+11.617032 1.798253
+11.597607 1.814714
+11.578368 1.830338
+11.559319 1.845183
+11.540466 1.859302
+11.52181 1.872743
+11.503352 1.885549
+11.485095 1.89776
+11.467037 1.909412
+11.449181 1.920541
+11.431524 1.931176
+11.414066 1.941346
+11.396807 1.951078
+11.379742 1.960396
+11.362873 1.969323
+11.346197 1.977881
+11.329711 1.986088
+11.313413 1.993963
+11.297301 2.001524
+11.281373 2.008785
+11.265625 2.015763
+11.250057 2.02247
+11.234663 2.028921
+11.219444 2.035126
+11.204395 2.041099
+11.189515 2.046848
+11.174799 2.052386
+11.160247 2.05772
+11.145855 2.062861
+11.13162 2.067816
+11.117541 2.072595
+11.103614 2.077203
+11.089837 2.081649
+11.076208 2.085939
+11.062724 2.09008
+11.049384 2.094078
+11.036183 2.097938
+11.02312 2.101666
+11.010194 2.105267
+10.997401 2.108747
+10.984739 2.112109
+10.972206 2.115358
+10.959801 2.1185
+10.94752 2.121536
+10.935362 2.124472
+10.923326 2.127312
+10.911408 2.130058
+10.899607 2.132714
+10.887921 2.135283
+10.876348 2.137768
+10.864887 2.140173
+10.853536 2.142499
+10.842293 2.14475
+10.831157 2.146927
+10.820127 2.149034
+10.809201 2.151071
+10.798378 2.153042
+10.787656 2.154948
+10.777033 2.156791
+10.766508 2.158573
+10.75608 2.160295
+10.745747 2.16196
+10.735507 2.163569
+10.725359 2.165123
+10.715302 2.166625
+10.705334 2.168075
+10.695454 2.169475
+10.685661 2.170827
+10.675952 2.172131
+10.666327 2.17339
+10.656785 2.174603
+10.647324 2.175774
+10.637943 2.176902
+10.628641 2.177989
+10.539699 2.186826
+10.457463 2.192578
+10.381065 2.195944
+10.309793 2.197452
+10.243062 2.197501
+10.18038 2.196402
+10.121335 2.194394
+10.065573 2.191667
+10.012791 2.188369
+9.962725 2.184619
+9.915145 2.180514
+9.86985 2.17613
+9.826661 2.17153
+9.785418 2.166764
+9.74598 2.161875
+9.70822 2.156896
+9.672023 2.151855
+9.637286 2.146777
+9.603915 2.141678
+9.571824 2.136577
+9.540937 2.131485
+9.511181 2.126413
+9.482492 2.121369
+9.454809 2.116363
+9.428077 2.111398
+9.402246 2.10648
+9.377267 2.101613
+9.353098 2.0968
+9.329698 2.092043
+9.307028 2.087344
+9.285055 2.082705
+9.263744 2.078127
+9.243066 2.07361
+9.222991 2.069155
+9.203493 2.064762
+9.184547 2.060431
+9.166128 2.056161
+9.148216 2.051952
+9.130788 2.047805
+9.113824 2.043718
+9.097307 2.03969
+9.081219 2.035722
+9.065542 2.031812
+9.050262 2.027959
+9.035363 2.024162
+9.020832 2.020421
+9.006654 2.016736
+8.992817 2.013104
+8.979309 2.009525
+8.966118 2.005998
+8.953234 2.002522
+8.940646 1.999096
+8.928344 1.99572
+8.916318 1.992392
+8.90456 1.989112
+8.893061 1.985879
+8.881812 1.982691
+8.870807 1.979548
+8.860036 1.976449
+8.849493 1.973394
+8.83917 1.970381
+8.829063 1.967409
+8.819163 1.964478
+8.809465 1.961588
+8.799963 1.958736
+8.790651 1.955923
+&
+@target G0.S2
+@type xy
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+0.006233 0
+0.536966 5.1e-05
+0.754754 0.000142
+0.920205 0.000258
+1.058122 0.000393
+1.178192 0.000544
+1.28479 0.000707
+1.386442 0.00089
+1.471518 0.001067
+1.55358 0.001259
+1.631203 0.001461
+1.70556 0.001675
+1.776085 0.001895
+1.857074 0.00217
+1.904649 0.002349
+1.967696 0.002595
+2.022887 0.002826
+2.085927 0.003104
+2.131873 0.003322
+2.590766 0.006074
+2.945784 0.009078
+3.242447 0.012284
+3.491895 0.015556
+3.712016 0.018925
+3.905239 0.022305
+4.096335 0.025993
+4.23501 0.029091
+4.381569 0.032543
+4.527304 0.036205
+4.636989 0.039326
+4.75138 0.042695
+4.858781 0.046055
+4.960127 0.049407
+5.052825 0.052668
+5.144754 0.056018
+5.236708 0.059476
+5.309584 0.062511
+5.387033 0.06575
+5.470805 0.069256
+5.530082 0.072113
+5.597785 0.075283
+5.66196 0.078405
+5.724175 0.081522
+5.792447 0.084894
+5.848845 0.08793
+5.895551 0.090681
+5.950287 0.093745
+6.003866 0.096812
+6.049739 0.099644
+6.099639 0.102655
+6.145273 0.105544
+6.2033 0.108932
+6.237307 0.111446
+6.278836 0.114271
+6.323793 0.117256
+6.362048 0.120005
+6.39963 0.122749
+6.437932 0.125544
+6.497585 0.129241
+6.513774 0.131169
+6.548734 0.133889
+6.583651 0.136626
+6.617741 0.139346
+6.660471 0.142459
+6.6888 0.144964
+6.716355 0.147448
+6.746754 0.15007
+6.776354 0.15267
+6.806234 0.155296
+6.836007 0.157931
+6.864231 0.160506
+6.892157 0.16308
+6.926954 0.165988
+6.951676 0.168435
+6.973867 0.170769
+7.001351 0.173366
+7.02463 0.175769
+7.051434 0.178352
+7.080982 0.181081
+7.099589 0.183279
+7.123083 0.185725
+7.1468 0.18819
+7.168985 0.190585
+7.198323 0.19335
+7.214013 0.195429
+7.23634 0.197851
+7.257872 0.200239
+7.28161 0.202748
+7.301499 0.205063
+7.321954 0.207412
+7.341022 0.209693
+7.366272 0.212308
+7.380411 0.214336
+7.405108 0.216933
+7.418608 0.218933
+7.437515 0.221227
+7.462884 0.223879
+7.474228 0.225768
+7.491714 0.227997
+7.510008 0.230273
+7.528961 0.23259
+7.544865 0.23474
+7.561868 0.236955
+7.587232 0.239644
+7.611356 0.242269
+7.618276 0.243923
+7.627262 0.245693
+7.644011 0.247907
+7.660655 0.250118
+7.811222 0.271416
+7.940607 0.291642
+8.067051 0.311821
+8.173402 0.330789
+8.280626 0.349841
+8.363171 0.367224
+8.448935 0.384781
+8.528431 0.401849
+8.602808 0.418489
+8.678195 0.435136
+8.738037 0.450553
+8.799954 0.466031
+8.857052 0.48105
+8.91216 0.495818
+8.964405 0.510264
+9.016742 0.524619
+9.059233 0.538086
+9.103848 0.551617
+9.146419 0.564879
+9.186684 0.577849
+9.228034 0.590807
+9.265141 0.60331
+9.298165 0.615366
+9.33114 0.627316
+9.363508 0.639113
+9.394611 0.650702
+9.424432 0.662083
+9.457006 0.673609
+9.48428 0.684577
+9.508064 0.695142
+9.533678 0.705776
+9.5579 0.716194
+9.58167 0.726482
+9.606094 0.736741
+9.626864 0.746582
+9.648494 0.756415
+9.675505 0.766657
+9.68983 0.775655
+9.709791 0.785087
+9.727717 0.794251
+9.745931 0.803362
+9.763346 0.812321
+9.780782 0.821205
+9.797475 0.829945
+9.813137 0.838514
+9.830108 0.847134
+9.84426 0.855415
+9.858757 0.863658
+9.875995 0.872094
+9.887242 0.879888
+9.901867 0.887942
+9.916235 0.895912
+9.926583 0.903443
+9.941273 0.911348
+9.953917 0.919011
+9.964321 0.926413
+9.977031 0.933994
+9.986795 0.941242
+9.997826 0.948568
+10.008977 0.955862
+10.019892 0.963089
+10.030045 0.970197
+10.045667 0.977801
+10.050923 0.984338
+10.060348 0.991243
+10.070226 0.99815
+10.080481 1.005052
+10.092352 1.012074
+10.098672 1.0185
+10.111098 1.025494
+10.115905 1.031685
+10.124781 1.038242
+10.13281 1.044673
+10.141259 1.051106
+10.149471 1.057476
+10.161189 1.06416
+10.165517 1.070058
+10.174208 1.076359
+10.181013 1.08243
+10.187789 1.08846
+10.195073 1.094503
+10.202296 1.100503
+10.210793 1.106597
+10.215829 1.112299
+10.222717 1.118154
+10.229478 1.123961
+10.235944 1.129701
+10.2447 1.135642
+10.248706 1.141059
+10.254655 1.146641
+10.310924 1.200291
+10.359814 1.25005
+10.398359 1.295884
+10.431918 1.338608
+10.461548 1.37856
+10.48455 1.415653
+10.506971 1.450717
+10.522491 1.483229
+10.536733 1.513941
+10.548925 1.542898
+10.558914 1.5702
+10.566988 1.595984
+10.57346 1.620376
+10.578975 1.643534
+10.582001 1.665366
+10.58708 1.686442
+10.586228 1.70595
+10.586788 1.724755
+10.586674 1.742681
+10.585924 1.759782
+10.584192 1.776065
+10.582024 1.791633
+10.579336 1.806514
+10.576151 1.820746
+10.572557 1.834373
+10.568462 1.847414
+10.564751 1.859996
+10.559526 1.871936
+10.554622 1.88346
+10.5493 1.89451
+10.543913 1.905146
+10.538317 1.915372
+10.532411 1.925197
+10.526657 1.934686
+10.520231 1.943769
+10.514555 1.952613
+10.507438 1.960997
+10.501268 1.969192
+10.494231 1.977015
+10.487511 1.984607
+10.48102 1.991968
+10.473811 1.999008
+10.466845 2.00584
+10.459754 2.012434
+10.452736 2.018821
+10.445609 2.02499
+10.438432 2.030955
+10.431284 2.036732
+10.424161 2.042327
+10.416952 2.047735
+10.409739 2.05297
+10.402514 2.058038
+10.395371 2.062953
+10.388784 2.067771
+10.381225 2.072335
+10.373779 2.076765
+10.366218 2.081042
+10.35933 2.085253
+10.352387 2.089325
+10.344536 2.093173
+10.337234 2.096955
+10.330242 2.100649
+10.322886 2.104188
+10.315639 2.107625
+10.308463 2.110959
+10.301346 2.114194
+10.29421 2.117323
+10.287051 2.120349
+10.280008 2.12329
+10.272893 2.126129
+10.265882 2.128887
+10.259237 2.131594
+10.251683 2.134121
+10.245053 2.136659
+10.238391 2.139113
+10.230792 2.14139
+10.223812 2.143655
+10.21689 2.145851
+10.21114 2.148094
+10.203244 2.150046
+10.196295 2.152027
+10.189675 2.153975
+10.183241 2.155877
+10.176019 2.157635
+10.169298 2.159383
+10.162788 2.161092
+10.155825 2.162697
+10.149254 2.164285
+10.1426 2.165809
+10.135965 2.167282
+10.071432 2.179523
+10.010059 2.188006
+9.950609 2.193493
+9.894211 2.196758
+9.840359 2.198254
+9.788763 2.198343
+9.739614 2.197347
+9.692622 2.195475
+9.647298 2.192876
+9.604109 2.189743
+9.563129 2.186207
+9.522837 2.182232
+9.484672 2.178031
+9.44795 2.173611
+9.412674 2.169027
+9.378627 2.16431
+9.346182 2.159531
+9.314267 2.154631
+9.283775 2.149714
+9.254405 2.144779
+9.225902 2.139825
+9.198417 2.134881
+9.172712 2.130025
+9.146097 2.125048
+9.121134 2.120172
+9.096971 2.115334
+9.073546 2.11054
+9.050818 2.105791
+9.028737 2.10109
+9.007346 2.096445
+8.9865 2.091848
+8.966329 2.087315
+8.946647 2.082833
+8.927512 2.078409
+8.909871 2.07412
+8.890744 2.069735
+8.873137 2.065491
+8.855944 2.061302
+8.839273 2.057178
+8.82288 2.0531
+8.807371 2.049117
+8.791384 2.045126
+8.77623 2.041225
+8.761405 2.037377
+8.746936 2.033586
+8.732877 2.029854
+8.719344 2.026191
+8.705545 2.022537
+8.69257 2.018974
+8.679572 2.015439
+8.666927 2.011959
+8.654575 2.00853
+8.642884 2.005179
+8.630698 2.00182
+8.619138 1.998536
+8.607894 1.995303
+8.596765 1.992107
+8.586026 1.988967
+8.575312 1.985857
+8.564979 1.982802
+8.554706 1.979778
+8.544713 1.976801
+8.534879 1.973862
+8.525573 1.970986
+8.516193 1.968132
+8.506548 1.965284
+8.497421 1.962498
+8.488772 1.95977
+8.47979 1.957044
+8.471159 1.954366
+&
+@target G0.S3
+@type xy
+844.43486 0.578878
+864.22371 0.580125
+883.5275 0.581372
+902.61475 0.582613
+921.27027 0.583846
+939.88565 0.585068
+958.45333 0.586278
+976.97891 0.587477
+995.57096 0.588663
+1014.258 0.589837
+1033.0827 0.591
+1052.0816 0.592151
+1071.2897 0.593292
+1090.739 0.594423
+1110.4591 0.595545
+1130.4996 0.596659
+1150.8259 0.597765
+1171.5253 0.598865
+1192.6028 0.599959
+1214.1039 0.601049
+1235.9905 0.602134
+1258.3498 0.603217
+1281.1753 0.604297
+1304.4418 0.605376
+1328.2519 0.606456
+1352.6018 0.607536
+1377.5269 0.608617
+1403.0869 0.609701
+1429.2857 0.610786
+1456.0623 0.611874
+1483.4202 0.612965
+1511.5499 0.614057
+1540.376 0.61515
+1569.9657 0.616244
+1600.3215 0.617336
+1631.4602 0.618424
+1663.2679 0.619502
+1695.9142 0.620572
+1729.4236 0.621627
+1763.844 0.622664
+1799.214 0.623675
+1835.4884 0.624652
+1872.8197 0.625583
+1911.1341 0.626458
+1950.4813 0.62726
+1990.9643 0.627973
+2032.5327 0.628576
+2075.3168 0.629047
+2119.3214 0.629359
+2164.6375 0.629484
+2211.3884 0.629388
+2259.5198 0.629037
+2309.2189 0.628391
+2360.5412 0.627409
+2413.7033 0.626047
+2468.7479 0.624258
+2525.7798 0.621995
+2585.0853 0.619201
+2646.7376 0.61582
+2710.9914 0.611785
+2778.2109 0.607024
+2848.4406 0.601456
+2922.1312 0.594994
+2999.5654 0.587541
+3080.9946 0.578991
+3166.8874 0.569225
+3257.4639 0.558114
+3353.4652 0.545515
+3456.1617 0.531264
+3561.453 0.515164
+3676.104 0.497002
+3794.4017 0.476502
+3914.6864 0.453341
+4041.6426 0.427157
+4160.2115 0.397528
+4269.8099 0.364038
+4353.0175 0.326234
+4364.8639 0.283874
+4260.8063 0.237747
+3927.0237 0.190953
+3304.273 0.15041
+2499.9034 0.12309
+1801.1367 0.108488
+1317.0822 0.101193
+1002.1321 0.097309
+792.28944 0.095038
+647.82744 0.093608
+543.94266 0.092659
+466.56459 0.092007
+407.16407 0.091551
+360.33613 0.091233
+322.67183 0.091013
+154.56169 0.091214
+101.32066 0.092964
+75.911354 0.095232
+61.225853 0.097757
+51.730789 0.10043
+45.120249 0.103196
+40.271044 0.106023
+36.571621 0.10889
+33.662685 0.111781
+31.319765 0.114687
+29.395017 0.117599
+27.787326 0.120513
+26.425681 0.123423
+25.258496 0.126327
+24.247351 0.129223
+23.363635 0.132109
+22.584887 0.134983
+21.89381 0.137845
+21.276577 0.140694
+20.722244 0.143528
+20.221761 0.146348
+19.767745 0.149154
+19.354152 0.151945
+18.975919 0.15472
+18.62872 0.157481
+18.309024 0.160226
+18.013712 0.162956
+17.740128 0.165671
+17.486056 0.168371
+17.249485 0.171056
+17.028753 0.173725
+16.822289 0.176381
+16.628813 0.179021
+16.447163 0.181647
+16.276309 0.184258
+16.115342 0.186856
+15.963418 0.189439
+15.819879 0.192008
+15.684013 0.194563
+15.555258 0.197105
+15.433077 0.199633
+15.316961 0.202148
+15.206554 0.20465
+15.101391 0.207138
+15.001147 0.209614
+14.905496 0.212077
+14.814139 0.214528
+14.726802 0.216966
+14.643207 0.219392
+14.563156 0.221805
+14.486437 0.224207
+14.412823 0.226597
+14.342168 0.228975
+14.27428 0.231342
+14.209024 0.233697
+14.146234 0.236041
+14.085798 0.238373
+14.02758 0.240695
+13.971475 0.243006
+13.917352 0.245306
+13.865132 0.247595
+13.814711 0.249874
+13.766011 0.252142
+13.718939 0.2544
+13.673429 0.256648
+13.629384 0.258886
+13.586765 0.261113
+13.545495 0.263331
+13.505507 0.265539
+13.466751 0.267738
+13.429165 0.269927
+13.392729 0.272106
+13.357355 0.274276
+13.323023 0.276437
+13.289679 0.278588
+13.257288 0.280731
+13.225808 0.282864
+13.195198 0.284989
+13.165441 0.287104
+13.1365 0.289211
+13.108328 0.29131
+13.080897 0.293399
+13.054208 0.295481
+13.0282 0.297554
+13.002859 0.299618
+12.978169 0.301674
+12.954101 0.303723
+12.93063 0.305763
+12.907731 0.307795
+12.885404 0.309819
+12.688978 0.329636
+12.531181 0.348837
+12.402359 0.367487
+12.295819 0.385601
+12.206646 0.403209
+12.131229 0.420341
+12.06686 0.437023
+12.011472 0.45328
+11.963463 0.469133
+11.921569 0.484603
+11.884806 0.499709
+11.852355 0.514469
+11.823578 0.528898
+11.797929 0.54301
+11.774976 0.556821
+11.754349 0.570343
+11.735742 0.583587
+11.718892 0.596565
+11.703586 0.609288
+11.689631 0.621764
+11.676872 0.634004
+11.665164 0.646016
+11.654396 0.657808
+11.644457 0.669387
+11.635264 0.680762
+11.626732 0.691939
+11.618798 0.702923
+11.611393 0.713723
+11.604472 0.724342
+11.597982 0.734788
+11.591881 0.745064
+11.586136 0.755177
+11.580707 0.765131
+11.575571 0.77493
+11.570696 0.784579
+11.566061 0.794082
+11.561644 0.803443
+11.557422 0.812666
+11.553384 0.821755
+11.549509 0.830712
+11.545784 0.839542
+11.542199 0.848248
+11.538739 0.856832
+11.535394 0.865298
+11.532153 0.873648
+11.529011 0.881886
+11.525956 0.890014
+11.522983 0.898035
+11.520084 0.90595
+11.517254 0.913762
+11.514485 0.921478
+11.511777 0.929104
+11.509128 0.93665
+11.506542 0.944125
+11.504016 0.951533
+11.501552 0.958874
+11.499151 0.966148
+11.49681 0.973354
+11.494525 0.980495
+11.492298 0.987571
+11.490123 0.994584
+11.488001 1.001533
+11.485928 1.008421
+11.483903 1.015247
+11.481924 1.022012
+11.479988 1.028718
+11.478094 1.035364
+11.47624 1.041952
+11.474422 1.048483
+11.472642 1.054956
+11.470895 1.061374
+11.469181 1.067736
+11.467498 1.074043
+11.465845 1.080297
+11.464219 1.086496
+11.462621 1.092643
+11.461047 1.098738
+11.459498 1.104782
+11.457971 1.110774
+11.456466 1.116717
+11.454981 1.12261
+11.453516 1.128453
+11.452069 1.134249
+11.450638 1.139997
+11.449225 1.145697
+11.447827 1.151351
+11.446444 1.156958
+11.445074 1.16252
+11.443718 1.168037
+11.442373 1.17351
+11.429464 1.225902
+11.417178 1.274381
+11.405173 1.319365
+11.393244 1.361215
+11.381271 1.400246
+11.369187 1.43673
+11.356963 1.470904
+11.344586 1.502978
+11.332059 1.533134
+11.319394 1.561537
+11.306604 1.588331
+11.293707 1.613643
+11.280719 1.63759
+11.267659 1.660275
+11.254543 1.681791
+11.241388 1.702222
+11.228208 1.721644
+11.215016 1.740125
+11.201826 1.75773
+11.188648 1.774515
+11.175494 1.790532
+11.162371 1.80583
+11.149289 1.820453
+11.136255 1.834441
+11.123275 1.847831
+11.110354 1.860658
+11.097499 1.872954
+11.084713 1.884748
+11.072001 1.896068
+11.059365 1.906939
+11.04681 1.917385
+11.034337 1.927428
+11.021948 1.937088
+11.009645 1.946385
+10.997431 1.955336
+10.985306 1.963958
+10.973272 1.972267
+10.961328 1.980278
+10.949476 1.988004
+10.937717 1.995459
+10.926049 2.002655
+10.914475 2.009603
+10.902993 2.016315
+10.891604 2.0228
+10.880307 2.029068
+10.869102 2.035129
+10.857989 2.04099
+10.846968 2.046661
+10.836038 2.052147
+10.825199 2.057456
+10.814452 2.062594
+10.803794 2.067567
+10.793225 2.07238
+10.782744 2.077039
+10.77235 2.081549
+10.762042 2.085915
+10.751818 2.090142
+10.741678 2.094235
+10.73162 2.098198
+10.721644 2.102035
+10.711748 2.10575
+10.701931 2.109348
+10.692191 2.112832
+10.682529 2.116206
+10.672942 2.119473
+10.66343 2.122636
+10.653991 2.125699
+10.644625 2.128666
+10.63533 2.131538
+10.626106 2.13432
+10.616951 2.137013
+10.607865 2.13962
+10.598847 2.142145
+10.589895 2.144589
+10.58101 2.146955
+10.572189 2.149245
+10.563433 2.151462
+10.554739 2.153608
+10.546108 2.155684
+10.537539 2.157693
+10.529031 2.159637
+10.520583 2.161518
+10.512194 2.163338
+10.503865 2.165097
+10.495592 2.166799
+10.487377 2.168444
+10.479219 2.170034
+10.471116 2.171571
+10.463069 2.173057
+10.455076 2.174492
+10.378012 2.186364
+10.305763 2.194495
+10.23784 2.199752
+10.173826 2.202781
+10.113362 2.204068
+10.056132 2.203985
+10.001862 2.202818
+9.950309 2.200791
+9.901258 2.198081
+9.854517 2.194828
+9.809914 2.191144
+9.767295 2.187118
+9.726521 2.182824
+9.687466 2.178321
+9.650017 2.173657
+9.61407 2.168872
+9.579531 2.163999
+9.546314 2.159065
+9.514338 2.154092
+9.483533 2.149099
+9.453832 2.1441
+9.425173 2.139108
+9.397499 2.134134
+9.370758 2.129187
+9.344901 2.124273
+9.319884 2.119399
+9.295664 2.114568
+9.272202 2.109786
+9.249462 2.105055
+9.22741 2.100378
+9.206013 2.095756
+9.185243 2.091191
+9.165071 2.086684
+9.145472 2.082237
+9.12642 2.077848
+9.107892 2.073519
+9.089867 2.06925
+9.072324 2.065041
+9.055243 2.06089
+9.038607 2.056799
+9.022397 2.052765
+9.006598 2.04879
+8.991195 2.044872
+8.976171 2.04101
+8.961514 2.037204
+8.94721 2.033453
+8.933246 2.029756
+8.91961 2.026113
+8.906292 2.022522
+8.89328 2.018982
+8.880564 2.015493
+8.868134 2.012055
+8.85598 2.008665
+8.844094 2.005323
+8.832467 2.002029
+8.821091 1.998781
+8.809957 1.995579
+8.799059 1.992422
+8.788389 1.989308
+8.777941 1.986238
+8.767707 1.98321
+8.757681 1.980223
+8.747857 1.977278
+8.73823 1.974372
+8.728794 1.971505
+8.719543 1.968677
+8.710472 1.965887
+8.701577 1.963134
+8.692851 1.960418
+8.684292 1.957737
+&
+@target G0.S4
+@type xy
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+0.430386 2.5e-05
+0.70941 0.000111
+0.915859 0.00024
+1.057624 0.000371
+1.198448 0.00054
+1.313251 0.000713
+1.419495 0.000902
+1.519892 0.00111
+1.618437 0.001343
+1.696767 0.001551
+1.785681 0.001811
+1.860493 0.002053
+1.926224 0.002284
+1.995101 0.002543
+2.070683 0.002848
+2.138255 0.003141
+2.187357 0.003371
+2.260123 0.003723
+2.30338 0.00395
+2.357141 0.004241
+2.826186 0.007434
+3.196638 0.01092
+3.504403 0.014589
+3.764903 0.01833
+3.99889 0.022227
+4.20761 0.026183
+4.386409 0.030005
+4.56046 0.034052
+4.741089 0.038546
+4.851919 0.041825
+4.98416 0.04575
+5.111276 0.049752
+5.222877 0.053549
+5.338234 0.057599
+5.432751 0.061236
+5.527079 0.064986
+5.626555 0.069004
+5.702703 0.07244
+5.786784 0.076206
+5.864205 0.079854
+5.941993 0.083597
+6.021621 0.087487
+6.085265 0.090911
+6.155698 0.094634
+6.209924 0.097844
+6.273122 0.101429
+6.330933 0.104871
+6.387465 0.108314
+6.451417 0.112093
+6.513823 0.115867
+6.549975 0.118647
+6.600888 0.122047
+6.648621 0.125355
+6.710062 0.12927
+6.74156 0.131969
+6.786256 0.135249
+6.83343 0.138668
+6.871662 0.141726
+6.910965 0.144856
+6.952568 0.148113
+6.989989 0.151206
+7.028025 0.154349
+7.068269 0.157617
+7.106998 0.160838
+7.139054 0.163765
+7.173249 0.16681
+7.206884 0.169847
+7.247924 0.173262
+7.273275 0.175927
+7.314503 0.179392
+7.335641 0.181873
+7.36764 0.184908
+7.395685 0.187758
+7.424945 0.190681
+7.45376 0.193595
+7.481523 0.196465
+7.520136 0.199917
+7.535557 0.202161
+7.565958 0.205205
+7.589469 0.207893
+7.615096 0.210702
+7.638525 0.213401
+7.663166 0.216174
+7.689943 0.219074
+7.71303 0.221778
+7.735478 0.224454
+7.758731 0.227182
+7.784177 0.230041
+7.805141 0.232654
+7.826193 0.235278
+7.848534 0.237982
+7.874433 0.240897
+7.892272 0.243353
+7.917447 0.24624
+7.930875 0.248448
+7.956827 0.251393
+7.973036 0.25377
+7.99191 0.256308
+8.012143 0.258932
+8.030482 0.261446
+8.049207 0.263987
+8.066116 0.266422
+8.085211 0.268994
+8.110861 0.271969
+8.125483 0.274276
+8.143028 0.276763
+8.155485 0.278939
+8.172597 0.281405
+8.197075 0.284334
+8.208647 0.28646
+8.367506 0.31053
+8.501268 0.33311
+8.633742 0.35568
+8.73779 0.376316
+8.845565 0.397237
+8.938598 0.417063
+9.02863 0.436616
+9.106724 0.455193
+9.183247 0.473559
+9.253627 0.491347
+9.320029 0.508712
+9.383109 0.525698
+9.441296 0.542167
+9.497365 0.558341
+9.550133 0.574118
+9.598696 0.589414
+9.647102 0.604572
+9.690679 0.619188
+9.732953 0.633566
+9.773043 0.647627
+9.812612 0.661519
+9.851184 0.675202
+9.884584 0.688298
+9.917751 0.701253
+9.950593 0.71406
+9.981443 0.726568
+10.009893 0.738738
+10.038199 0.750782
+10.066129 0.76268
+10.092617 0.774334
+10.117683 0.785745
+10.142826 0.797058
+10.165682 0.808049
+10.187805 0.818866
+10.211812 0.829766
+10.23031 0.840033
+10.250357 0.850353
+10.270711 0.860608
+10.289446 0.87061
+10.307729 0.880476
+10.327066 0.890357
+10.343217 0.899833
+10.36133 0.909416
+10.374577 0.918428
+10.389962 0.927569
+10.405581 0.936651
+10.419549 0.945485
+10.434209 0.954309
+10.449174 0.963086
+10.461952 0.971564
+10.473657 0.979856
+10.48601 0.988139
+10.500527 0.996571
+10.510098 1.004423
+10.523064 1.012553
+10.532684 1.020269
+10.543342 1.028022
+10.554616 1.035772
+10.564359 1.043297
+10.576175 1.050973
+10.584325 1.058202
+10.596821 1.065821
+10.602411 1.072657
+10.611311 1.079778
+10.619818 1.086804
+10.62796 1.09374
+10.638027 1.10083
+10.644151 1.107455
+10.651974 1.114209
+10.661339 1.121077
+10.667354 1.127543
+10.675711 1.134208
+10.681646 1.14057
+10.689977 1.147139
+10.695465 1.153359
+10.702084 1.159655
+10.708551 1.165888
+10.71506 1.172082
+10.720693 1.178138
+10.728703 1.184404
+10.732499 1.190176
+10.738308 1.196121
+10.744386 1.202053
+10.749707 1.207861
+10.754804 1.213605
+10.760372 1.219358
+10.765483 1.225022
+10.770763 1.230664
+10.775121 1.236167
+10.780267 1.241717
+10.823855 1.294315
+10.857896 1.342433
+10.884939 1.386702
+10.905691 1.427509
+10.923236 1.465462
+10.935149 1.50053
+10.946056 1.533434
+10.952356 1.563953
+10.958941 1.592795
+10.959957 1.61945
+10.960811 1.644647
+10.959997 1.668332
+10.958167 1.69068
+10.955489 1.7118
+10.951068 1.731675
+10.946889 1.7506
+10.941033 1.76843
+10.935685 1.785468
+10.928822 1.801546
+10.920773 1.816751
+10.913741 1.831374
+10.905039 1.84516
+10.896775 1.858382
+10.887834 1.870952
+10.87914 1.883007
+10.869825 1.89448
+10.860863 1.905508
+10.850933 1.915972
+10.841315 1.926037
+10.831568 1.935677
+10.821482 1.944891
+10.811518 1.953748
+10.801397 1.962237
+10.791702 1.970439
+10.781284 1.978244
+10.772251 1.985896
+10.761402 1.993063
+10.750691 1.99997
+10.740836 2.006707
+10.730179 2.013106
+10.720429 2.019362
+10.710192 2.025337
+10.699651 2.031059
+10.689791 2.036643
+10.679177 2.041946
+10.668902 2.047091
+10.659122 2.052103
+10.648794 2.056879
+10.639307 2.061573
+10.628886 2.066004
+10.618826 2.070315
+10.60925 2.074525
+10.599532 2.078573
+10.58941 2.082438
+10.579664 2.086207
+10.57023 2.089878
+10.560652 2.093408
+10.550754 2.096783
+10.541176 2.100074
+10.531595 2.103252
+10.522677 2.106389
+10.512926 2.109334
+10.504011 2.112264
+10.494389 2.115022
+10.485025 2.117712
+10.475967 2.120341
+10.466905 2.122881
+10.458339 2.125384
+10.448931 2.127717
+10.43998 2.130016
+10.431144 2.132246
+10.422431 2.134412
+10.413682 2.136499
+10.404784 2.138498
+10.39616 2.140453
+10.388408 2.142428
+10.379621 2.144231
+10.37064 2.145949
+10.362707 2.147709
+10.353899 2.149319
+10.345602 2.15092
+10.337488 2.152481
+10.32933 2.15398
+10.321156 2.155421
+10.313485 2.156859
+10.305685 2.15823
+10.297118 2.159475
+10.289268 2.16074
+10.281332 2.161948
+10.273483 2.163117
+10.198122 2.172736
+10.127142 2.179135
+10.060422 2.183065
+9.997839 2.185095
+9.938273 2.185567
+9.881769 2.184832
+9.828179 2.183149
+9.777635 2.180748
+9.72891 2.17769
+9.682885 2.174194
+9.639088 2.170332
+9.596713 2.166127
+9.556718 2.161739
+9.518233 2.157155
+9.480982 2.152405
+9.445178 2.147553
+9.411071 2.142655
+9.378209 2.137705
+9.346703 2.132739
+9.316224 2.127752
+9.286538 2.122743
+9.258253 2.117779
+9.230665 2.112816
+9.204241 2.107905
+9.179131 2.103065
+9.15384 2.098188
+9.129786 2.093394
+9.106263 2.088634
+9.083625 2.08394
+9.061658 2.079301
+9.040952 2.074764
+9.019808 2.070206
+8.999876 2.065754
+8.980285 2.061344
+8.961122 2.056985
+8.942928 2.05272
+8.924624 2.04847
+8.90732 2.044318
+8.890127 2.040199
+8.873876 2.036176
+8.857326 2.032159
+8.841853 2.028248
+8.826368 2.024364
+8.811168 2.02053
+8.796539 2.016767
+8.782867 2.013101
+8.768147 2.00939
+8.75459 2.005792
+8.741481 2.002256
+8.728478 1.998756
+8.715496 1.995288
+8.702952 1.991879
+8.690772 1.988526
+8.679649 1.985276
+8.667262 1.981966
+8.655836 1.978752
+8.644691 1.975586
+8.633758 1.972463
+8.623154 1.96939
+8.61277 1.96636
+8.602247 1.963347
+8.5922 1.960394
+8.582225 1.957472
+8.572877 1.95462
+8.56307 1.951762
+8.554109 1.948987
+&
+@target G0.S5
+@type xy
+730.2691 0.606846
+743.61963 0.608521
+757.08097 0.610128
+770.68748 0.611678
+784.50828 0.613181
+798.57996 0.614644
+812.95142 0.616074
+827.64137 0.617478
+842.67362 0.618859
+858.10263 0.620222
+873.85241 0.621571
+890.04399 0.622907
+906.65481 0.624232
+923.70925 0.625548
+941.20659 0.626856
+959.20266 0.628157
+977.69859 0.62945
+996.72371 0.630737
+1016.3207 0.632018
+1036.4603 0.633294
+1057.2175 0.634564
+1078.6131 0.635831
+1100.6739 0.637094
+1123.3971 0.638354
+1146.8471 0.639614
+1171.064 0.640876
+1196.0966 0.642142
+1221.9457 0.643415
+1248.6838 0.644695
+1276.3454 0.645987
+1305.0009 0.647293
+1334.6019 0.648614
+1365.2844 0.649954
+1397.0647 0.651313
+1430.0231 0.652693
+1464.1314 0.654096
+1499.3374 0.655516
+1535.898 0.65696
+1573.7713 0.658425
+1613.117 0.659911
+1653.8888 0.661414
+1696.257 0.66293
+1740.2396 0.664449
+1785.798 0.665962
+1833.1671 0.66745
+1882.4172 0.668891
+1933.3006 0.670254
+1986.2411 0.671499
+2041.2115 0.672576
+2098.3368 0.673423
+2157.7209 0.673967
+2219.5438 0.674124
+2284.1607 0.673802
+2351.8857 0.672896
+2422.8102 0.671302
+2497.3179 0.668908
+2575.9383 0.66559
+2659.1217 0.661212
+2747.5877 0.655619
+2841.9595 0.648632
+2942.8637 0.640039
+3051.2946 0.629595
+3168.2977 0.617027
+3295.1222 0.602026
+3433.1682 0.584243
+3583.9672 0.563265
+3748.4935 0.53857
+3928.1966 0.509478
+4122.2532 0.475074
+4329.0666 0.434145
+4526.4615 0.385053
+4684.5378 0.325764
+4669.9127 0.254742
+4191.0117 0.177578
+2917.4502 0.119404
+1693.2638 0.096396
+1054.715 0.089216
+733.86993 0.086436
+553.62659 0.085123
+440.85118 0.08444
+365.05295 0.084082
+310.96927 0.083912
+270.56591 0.083864
+239.27381 0.083897
+214.36027 0.083991
+194.12066 0.08413
+177.37733 0.084304
+163.30877 0.084506
+151.33505 0.08473
+141.03685 0.084973
+132.08443 0.085232
+124.23669 0.085504
+78.977763 0.088665
+59.091999 0.092215
+48.021344 0.095923
+41.007547 0.0997
+36.181977 0.103504
+32.666831 0.107315
+29.996741 0.111118
+27.902296 0.114905
+26.217362 0.118671
+24.833661 0.122413
+23.677869 0.126128
+22.698575 0.129816
+21.858689 0.133475
+21.130831 0.137104
+20.494231 0.140704
+19.933216 0.144273
+19.435177 0.147812
+18.990214 0.15132
+18.590462 0.154799
+18.229405 0.158248
+17.901766 0.161668
+17.603213 0.16506
+17.330082 0.168424
+17.079344 0.171761
+16.848314 0.175071
+16.634894 0.178355
+16.437135 0.181614
+16.253384 0.184847
+16.082286 0.188057
+15.922583 0.191242
+15.773197 0.194404
+15.633166 0.197543
+15.501691 0.20066
+15.377979 0.203755
+15.26144 0.206829
+15.151446 0.209881
+15.047494 0.212913
+14.949119 0.215924
+14.855878 0.218916
+14.767391 0.221888
+14.683326 0.224841
+14.603362 0.227776
+14.527225 0.230692
+14.454644 0.23359
+14.385404 0.23647
+14.319254 0.239333
+14.25603 0.242178
+14.195542 0.245007
+14.137622 0.247819
+14.082114 0.250615
+14.028879 0.253395
+13.977792 0.256159
+13.92871 0.258908
+13.881552 0.261641
+13.836192 0.264359
+13.792531 0.267063
+13.750495 0.269752
+13.709983 0.272426
+13.67092 0.275087
+13.633263 0.277733
+13.596897 0.280366
+13.561793 0.282985
+13.527868 0.28559
+13.495074 0.288183
+13.463362 0.290762
+13.432694 0.293329
+13.402998 0.295882
+13.374247 0.298424
+13.346383 0.300953
+13.319393 0.30347
+13.293221 0.305975
+13.267835 0.308467
+13.243203 0.310949
+13.219296 0.313418
+13.196077 0.315876
+13.17354 0.318323
+13.151624 0.320759
+13.130335 0.323183
+13.109636 0.325597
+13.0895 0.328
+13.069906 0.330392
+13.050848 0.332773
+13.032302 0.335144
+13.014233 0.337505
+12.996637 0.339856
+12.979494 0.342196
+12.962789 0.344527
+12.946507 0.346848
+12.930631 0.349158
+12.915149 0.35146
+12.779281 0.37396
+12.671079 0.395592
+12.583327 0.41643
+12.511015 0.43657
+12.45067 0.456128
+12.399896 0.475113
+12.356807 0.493563
+12.31995 0.511507
+12.288203 0.528975
+12.260686 0.545991
+12.236698 0.56258
+12.215665 0.578763
+12.197137 0.594561
+12.180727 0.60999
+12.166136 0.625068
+12.153101 0.639811
+12.141405 0.654233
+12.130875 0.668348
+12.121347 0.682168
+12.112701 0.695706
+12.10482 0.708971
+12.097611 0.721975
+12.09099 0.734727
+12.084891 0.747237
+12.079248 0.759512
+12.074009 0.771561
+12.069128 0.783393
+12.064563 0.795013
+12.06028 0.806429
+12.056244 0.817648
+12.052433 0.828676
+12.048819 0.839518
+12.045377 0.85018
+12.042096 0.860668
+12.038952 0.870987
+12.035932 0.881141
+12.033021 0.891136
+12.03021 0.900975
+12.027486 0.910663
+12.024838 0.920205
+12.022262 0.929603
+12.019746 0.938862
+12.017285 0.947986
+12.01487 0.956977
+12.0125 0.965839
+12.010166 0.974576
+12.007865 0.98319
+12.005592 0.991684
+12.003344 1.000062
+12.001118 1.008326
+11.998911 1.016478
+11.996718 1.024521
+11.99454 1.032458
+11.992372 1.040291
+11.990214 1.048023
+11.988062 1.055655
+11.985918 1.063189
+11.983777 1.070629
+11.981639 1.077975
+11.979502 1.08523
+11.977366 1.092397
+11.975232 1.099474
+11.973094 1.106466
+11.970955 1.113376
+11.968816 1.12021
+11.966676 1.126973
+11.96454 1.133669
+11.962406 1.140297
+11.960278 1.146857
+11.958154 1.153351
+11.956036 1.15978
+11.953919 1.166146
+11.951809 1.172448
+11.949702 1.178688
+11.9476 1.184868
+11.945501 1.190987
+11.943406 1.197048
+11.941315 1.20305
+11.939229 1.208995
+11.937145 1.214883
+11.935064 1.220716
+11.932986 1.226493
+11.93091 1.232217
+11.928839 1.237888
+11.926769 1.243506
+11.9247 1.249072
+11.922636 1.254588
+11.920572 1.260053
+11.91851 1.265468
+11.91645 1.270835
+11.895909 1.321955
+11.875417 1.368857
+11.85492 1.41205
+11.834403 1.45196
+11.813867 1.488949
+11.793326 1.523325
+11.772804 1.555353
+11.752322 1.585263
+11.731902 1.613253
+11.711564 1.639499
+11.69133 1.664153
+11.671215 1.687352
+11.651234 1.709215
+11.6314 1.72985
+11.611726 1.749352
+11.592219 1.767807
+11.572886 1.785292
+11.553735 1.801878
+11.534771 1.817627
+11.515997 1.832597
+11.497415 1.846839
+11.479029 1.860402
+11.460839 1.873329
+11.442847 1.88566
+11.425053 1.897431
+11.407455 1.908676
+11.390054 1.919426
+11.372848 1.92971
+11.355837 1.939554
+11.339017 1.948982
+11.322389 1.958018
+11.305949 1.966682
+11.289696 1.974995
+11.273628 1.982974
+11.257741 1.990637
+11.242035 1.997999
+11.226506 2.005075
+11.211152 2.01188
+11.19597 2.018426
+11.180958 2.024725
+11.166113 2.03079
+11.151433 2.036631
+11.136915 2.042258
+11.122557 2.047681
+11.108356 2.052908
+11.094309 2.057949
+11.080414 2.062812
+11.066669 2.067503
+11.053071 2.07203
+11.039618 2.076401
+11.026307 2.08062
+11.013137 2.084696
+11.000103 2.088632
+10.987206 2.092436
+10.974442 2.096111
+10.961808 2.099663
+10.949304 2.103098
+10.936926 2.106418
+10.924673 2.109629
+10.912543 2.112734
+10.900533 2.115738
+10.888642 2.118644
+10.876868 2.121456
+10.865209 2.124177
+10.853663 2.12681
+10.842227 2.129358
+10.830902 2.131825
+10.819685 2.134212
+10.808574 2.136523
+10.79757 2.138759
+10.786669 2.140923
+10.775871 2.143017
+10.765174 2.145043
+10.754575 2.147003
+10.744076 2.148899
+10.733672 2.150734
+10.723363 2.152507
+10.713147 2.154223
+10.703023 2.155881
+10.69299 2.157484
+10.683046 2.159033
+10.673189 2.16053
+10.663418 2.161976
+10.653733 2.163373
+10.644131 2.164722
+10.63461 2.166024
+10.625172 2.16728
+10.615812 2.168493
+10.606532 2.169662
+10.597328 2.17079
+10.509303 2.179996
+10.427864 2.186061
+10.352162 2.189697
+10.281503 2.191439
+10.215314 2.191694
+10.153114 2.190776
+10.0945 2.188929
+10.039125 2.186346
+9.986691 2.183177
+9.936941 2.179545
+9.889648 2.175547
+9.844614 2.17126
+9.801663 2.166749
+9.760639 2.162066
+9.721402 2.157252
+9.683827 2.152343
+9.6478 2.147368
+9.613221 2.14235
+9.579996 2.137308
+9.548041 2.132259
+9.517279 2.127216
+9.48764 2.122191
+9.45906 2.117191
+9.431479 2.112225
+9.404842 2.107299
+9.379099 2.102418
+9.354204 2.097585
+9.330112 2.092804
+9.306784 2.088078
+9.284183 2.083409
+9.262273 2.078798
+9.241022 2.074246
+9.2204 2.069755
+9.200378 2.065323
+9.180929 2.060953
+9.162029 2.056643
+9.143654 2.052394
+9.125782 2.048206
+9.108393 2.044078
+9.091466 2.040009
+9.074982 2.035998
+9.058926 2.032047
+9.043279 2.028152
+9.028027 2.024315
+9.013154 2.020533
+8.998647 2.016806
+8.984492 2.013134
+8.970677 2.009515
+8.957189 2.005949
+8.944017 2.002434
+8.931151 1.998969
+8.918579 1.995555
+8.906292 1.99219
+8.89428 1.988872
+8.882535 1.985602
+8.871048 1.982378
+8.859811 1.979199
+8.848815 1.976066
+8.838053 1.972975
+8.827519 1.969928
+8.817205 1.966923
+8.807104 1.963959
+8.797211 1.961036
+8.787518 1.958152
+8.778022 1.955308
+8.768714 1.952502
+&
+@target G0.S6
+@type xy
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+0.493801 3.6e-05
+0.770557 0.000136
+0.973518 0.000274
+1.13324 0.000433
+1.27804 0.000622
+1.402289 0.000822
+1.526768 0.001062
+1.628667 0.001291
+1.724639 0.001535
+1.817326 0.001798
+1.907175 0.00208
+1.992848 0.002375
+2.069563 0.002663
+2.14647 0.002974
+2.219203 0.00329
+2.289507 0.003617
+2.357319 0.003952
+2.42297 0.004296
+2.486593 0.004648
+2.547604 0.005004
+2.611955 0.005398
+2.665343 0.005742
+3.1702 0.009759
+3.576015 0.014145
+3.921006 0.018824
+4.219959 0.023684
+4.484557 0.028679
+4.714405 0.033619
+4.926228 0.038685
+5.114481 0.043662
+5.288864 0.048677
+5.446382 0.05359
+5.593699 0.058511
+5.728338 0.063325
+5.853981 0.068091
+5.967777 0.072684
+6.075961 0.077266
+6.176708 0.081751
+6.270656 0.086138
+6.35976 0.090473
+6.442788 0.094694
+6.525933 0.099017
+6.593797 0.102844
+6.663403 0.106808
+6.729013 0.110679
+6.793965 0.114586
+6.850894 0.118234
+6.915172 0.122258
+6.965749 0.125762
+7.024284 0.129665
+7.074554 0.133261
+7.123757 0.136857
+7.173007 0.1405
+7.219631 0.144066
+7.26695 0.147704
+7.312689 0.151308
+7.357776 0.154918
+7.399757 0.158413
+7.442096 0.161957
+7.482049 0.165414
+7.522517 0.168926
+7.561062 0.172369
+7.600223 0.17587
+7.636049 0.179224
+7.6737 0.182697
+7.712563 0.186258
+7.742412 0.189363
+7.776935 0.192736
+7.809627 0.19603
+7.84208 0.199329
+7.876679 0.202764
+7.909017 0.206093
+7.937928 0.209248
+7.965906 0.212363
+7.995223 0.215568
+8.025225 0.218826
+8.052321 0.221931
+8.080012 0.225083
+8.106701 0.228188
+8.134519 0.23137
+8.165407 0.234747
+8.185782 0.237511
+8.211367 0.240594
+8.238033 0.243752
+8.260809 0.246684
+8.284548 0.249683
+8.308249 0.252688
+8.331403 0.255667
+8.355283 0.258699
+8.376857 0.261595
+8.399365 0.264556
+8.420892 0.267462
+8.442415 0.270374
+8.467741 0.273535
+8.484669 0.276166
+8.506542 0.279119
+8.525102 0.281864
+8.544999 0.2847
+8.565172 0.287559
+8.583751 0.290318
+8.602898 0.293118
+8.621912 0.295914
+8.642151 0.298796
+8.658835 0.301445
+8.678346 0.304287
+8.695176 0.306952
+8.712662 0.309665
+8.730585 0.31241
+8.746734 0.315037
+8.765037 0.317815
+8.780055 0.32037
+8.797077 0.323065
+8.951034 0.348999
+9.087855 0.373839
+9.211203 0.397737
+9.323252 0.420774
+9.424567 0.442932
+9.517878 0.464345
+9.601472 0.484766
+9.678902 0.504488
+9.750993 0.523569
+9.815252 0.541789
+9.876095 0.559517
+9.932603 0.576673
+9.984799 0.593257
+10.034259 0.609408
+10.079653 0.625006
+10.12392 0.640319
+10.162556 0.654938
+10.200236 0.669291
+10.236548 0.683344
+10.269957 0.696958
+10.30128 0.710211
+10.332368 0.72328
+10.36032 0.735895
+10.388123 0.748342
+10.413069 0.760365
+10.436845 0.772129
+10.460256 0.783715
+10.482207 0.79502
+10.503539 0.806129
+10.523228 0.816944
+10.542322 0.827572
+10.562013 0.838133
+10.577972 0.848201
+10.595296 0.858284
+10.6104 0.868029
+10.626478 0.877756
+10.640161 0.887132
+10.654512 0.896465
+10.667309 0.905535
+10.680154 0.914505
+10.692455 0.923318
+10.704031 0.931958
+10.715972 0.940537
+10.72612 0.948838
+10.736631 0.957083
+10.746334 0.965154
+10.756454 0.973178
+10.765027 0.980956
+10.774465 0.988738
+10.78224 0.996264
+10.790316 1.003739
+10.798545 1.01115
+10.80563 1.018363
+10.812748 1.025502
+10.819546 1.032532
+10.827928 1.039655
+10.832666 1.046324
+10.838756 1.05306
+10.844631 1.059705
+10.850449 1.06629
+10.85657 1.072863
+10.863143 1.079444
+10.866196 1.085616
+10.871183 1.09195
+10.875934 1.098218
+10.880781 1.104456
+10.885393 1.11063
+10.89006 1.11677
+10.894166 1.122811
+10.898705 1.128859
+10.902597 1.134799
+10.906464 1.140697
+10.910522 1.146577
+10.914183 1.152376
+10.917975 1.158152
+10.921642 1.163875
+10.925125 1.169542
+10.929065 1.17522
+10.931763 1.180728
+10.935234 1.186282
+10.938949 1.191826
+10.941432 1.197202
+10.944335 1.202586
+10.947436 1.207956
+10.950257 1.213261
+10.953167 1.21854
+10.955691 1.223743
+10.958483 1.22894
+10.96106 1.23408
+10.963604 1.239182
+10.985579 1.288031
+11.00267 1.333278
+11.015083 1.375216
+11.024499 1.414272
+11.031098 1.450692
+11.03441 1.484625
+11.036449 1.516471
+11.036243 1.546285
+11.034781 1.574321
+11.031832 1.600681
+11.028001 1.62555
+11.02306 1.649007
+11.017294 1.671178
+11.010963 1.692177
+11.003839 1.712057
+10.996057 1.730902
+10.988117 1.748833
+10.979352 1.765834
+10.970709 1.782063
+10.961223 1.797463
+10.951722 1.81217
+10.941984 1.826201
+10.932066 1.8396
+10.922025 1.852408
+10.911741 1.864646
+10.901396 1.876363
+10.890931 1.887581
+10.880381 1.898328
+10.869821 1.908639
+10.859145 1.918523
+10.848425 1.928009
+10.837698 1.937121
+10.826967 1.945878
+10.816202 1.954293
+10.80546 1.962388
+10.79473 1.970177
+10.784049 1.977679
+10.773562 1.984921
+10.762621 1.99185
+10.752063 1.998562
+10.741385 2.005018
+10.731036 2.011274
+10.720267 2.017263
+10.709821 2.02307
+10.699496 2.028684
+10.689225 2.034106
+10.67879 2.039322
+10.668292 2.04435
+10.658222 2.049246
+10.647957 2.053954
+10.637835 2.058515
+10.627784 2.062927
+10.617745 2.067191
+10.60786 2.071326
+10.598874 2.075412
+10.588316 2.079206
+10.57842 2.082938
+10.5687 2.086562
+10.559289 2.090097
+10.549713 2.093499
+10.54008 2.096782
+10.530587 2.09997
+10.521306 2.103073
+10.512395 2.106109
+10.502738 2.108973
+10.493549 2.111785
+10.484445 2.114511
+10.475406 2.117152
+10.466503 2.119717
+10.457487 2.122185
+10.448783 2.1246
+10.439822 2.126908
+10.431207 2.129171
+10.42242 2.13134
+10.413791 2.133449
+10.405195 2.135489
+10.39699 2.137495
+10.388439 2.1394
+10.379978 2.141246
+10.371538 2.143029
+10.363415 2.144778
+10.355054 2.146443
+10.346886 2.148067
+10.33903 2.149661
+10.331173 2.151199
+10.32274 2.152626
+10.314989 2.154064
+10.306911 2.155418
+10.299249 2.15676
+10.291412 2.158036
+10.216171 2.168597
+10.145432 2.175762
+10.079022 2.180325
+10.016193 2.182828
+9.956887 2.183736
+9.900755 2.183381
+9.84743 2.182016
+9.796736 2.179851
+9.748457 2.177048
+9.702448 2.173741
+9.658537 2.170031
+9.61654 2.166001
+9.57642 2.161727
+9.537865 2.157248
+9.500841 2.152616
+9.465335 2.147876
+9.431257 2.143059
+9.398382 2.138178
+9.366792 2.133267
+9.336278 2.128334
+9.307042 2.123412
+9.278522 2.118476
+9.251154 2.113573
+9.224574 2.108687
+9.198957 2.103842
+9.174195 2.099039
+9.150116 2.094272
+9.126832 2.089556
+9.104235 2.08489
+9.082356 2.080279
+9.061075 2.075719
+9.040449 2.071219
+9.020399 2.066774
+9.000897 2.062387
+8.982016 2.058063
+8.963542 2.053791
+8.94555 2.049576
+8.928087 2.045423
+8.911097 2.041329
+8.894479 2.037289
+8.878331 2.033309
+8.862584 2.029386
+8.847212 2.025518
+8.832251 2.021708
+8.817681 2.017954
+8.803279 2.014242
+8.789467 2.010601
+8.775739 2.006996
+8.762474 2.003452
+8.749527 1.99996
+8.736701 1.996506
+8.724248 1.993107
+8.712098 1.989759
+8.70019 1.986456
+8.688682 1.983209
+8.67718 1.979992
+8.666063 1.976829
+8.655166 1.97371
+8.644461 1.970631
+8.633946 1.967593
+8.623667 1.964598
+8.613612 1.961645
+8.603772 1.958733
+8.59411 1.955859
+8.584647 1.953025
+8.575469 1.950235
+8.566363 1.947475
+8.557533 1.944758
+&
+@target G0.S7
+@type xy
+638.38186 0.627923
+648.90505 0.630014
+659.92222 0.631996
+671.43279 0.633882
+683.43408 0.635685
+695.97514 0.637417
+709.05005 0.639091
+722.6593 0.640718
+736.82363 0.642311
+751.54162 0.643878
+766.83247 0.645431
+782.68772 0.646977
+799.11679 0.648523
+816.12884 0.650073
+833.7274 0.65163
+851.94557 0.653196
+870.79057 0.654769
+890.28168 0.65635
+910.44412 0.657936
+931.30557 0.659525
+952.90136 0.661113
+975.31576 0.662699
+998.44682 0.664281
+1022.4694 0.665856
+1047.3904 0.667427
+1073.2791 0.668994
+1100.1943 0.67056
+1128.1991 0.672128
+1157.3559 0.673702
+1187.7359 0.675288
+1219.4096 0.676891
+1252.451 0.678518
+1286.9353 0.680176
+1322.9931 0.68187
+1360.5626 0.683606
+1399.6862 0.685381
+1440.4596 0.687199
+1483.2474 0.689075
+1528.1521 0.691006
+1575.0783 0.692991
+1624.259 0.695031
+1675.8225 0.697123
+1729.8323 0.699263
+1786.3993 0.701434
+1845.6749 0.703609
+1907.8069 0.70574
+1972.795 0.707755
+2040.8823 0.709552
+2112.3552 0.710998
+2187.4378 0.711928
+2266.5422 0.712149
+2350.2285 0.711452
+2439.1655 0.709623
+2534.3827 0.706443
+2636.8444 0.70168
+2747.566 0.695067
+2868.0201 0.686262
+2999.584 0.674829
+3144.5407 0.660242
+3305.5429 0.641914
+3486.033 0.619196
+3689.5574 0.591292
+3920.5232 0.557107
+4182.1275 0.515011
+4477.0541 0.46256
+4780.4889 0.396068
+5012.6691 0.30972
+4784.7603 0.200125
+3012.0845 0.107882
+1356.5466 0.083597
+763.21915 0.079006
+513.12864 0.077606
+381.78024 0.07711
+302.36872 0.076988
+249.68655 0.077061
+212.40247 0.077251
+184.72713 0.077517
+163.4291 0.077838
+146.5651 0.078199
+132.90574 0.07859
+121.63128 0.079006
+112.175 0.079443
+104.13848 0.079896
+97.229697 0.080363
+91.232648 0.080842
+85.976906 0.081332
+81.338705 0.081831
+77.21777 0.082338
+73.530753 0.082853
+70.216248 0.083373
+67.220916 0.0839
+64.502359 0.084432
+46.823659 0.089948
+37.775936 0.095663
+32.342505 0.101446
+28.747606 0.107225
+26.208938 0.112957
+24.329363 0.118613
+22.887166 0.124174
+21.748998 0.129628
+20.830083 0.134965
+20.074101 0.14018
+19.442228 0.145271
+18.906851 0.150235
+18.447864 0.155073
+18.050355 0.159785
+17.702835 0.164372
+17.396625 0.168837
+17.124761 0.173182
+16.881853 0.17741
+16.663447 0.181522
+16.466044 0.185523
+16.286686 0.189415
+16.122959 0.193201
+15.972863 0.196884
+15.834526 0.200473
+15.704864 0.204025
+15.582878 0.207553
+15.468002 0.211056
+15.359709 0.214535
+15.257486 0.217991
+15.160872 0.221425
+15.069457 0.224836
+14.982861 0.228225
+14.900731 0.231592
+14.822773 0.234937
+14.748695 0.238261
+14.678236 0.241563
+14.611135 0.244845
+14.547183 0.248106
+14.48619 0.251346
+14.427958 0.254567
+14.372326 0.257768
+14.319106 0.260949
+14.268192 0.264111
+14.219416 0.267254
+14.172672 0.270379
+14.127833 0.273485
+14.084802 0.276573
+14.043467 0.279643
+14.003746 0.282695
+13.96555 0.28573
+13.928797 0.288748
+13.893413 0.291749
+13.859318 0.294733
+13.826467 0.2977
+13.794797 0.300652
+13.764226 0.303587
+13.734719 0.306506
+13.706228 0.30941
+13.678706 0.312298
+13.652097 0.315171
+13.626357 0.31803
+13.601458 0.320873
+13.577353 0.323702
+13.554015 0.326516
+13.531415 0.329316
+13.509521 0.332101
+13.488289 0.334873
+13.467696 0.337631
+13.44772 0.340376
+13.428337 0.343107
+13.409521 0.345825
+13.391249 0.348529
+13.3735 0.351221
+13.356253 0.3539
+13.33949 0.356566
+13.323187 0.35922
+13.30734 0.361861
+13.291916 0.36449
+13.27691 0.367107
+13.262304 0.369712
+13.248087 0.372305
+13.234238 0.374887
+13.220747 0.377457
+13.207601 0.380015
+13.19479 0.382562
+13.182293 0.385098
+13.17012 0.387623
+13.158239 0.390136
+13.146654 0.392639
+13.135352 0.395131
+13.035897 0.419483
+12.956436 0.442867
+12.891886 0.465367
+12.838682 0.487057
+12.794285 0.508004
+12.756872 0.528209
+12.724929 0.547603
+12.697212 0.566275
+12.672866 0.584279
+12.651234 0.601666
+12.631825 0.618478
+12.61424 0.634755
+12.598188 0.650533
+12.583416 0.665841
+12.569731 0.680708
+12.55697 0.695159
+12.545003 0.709217
+12.533721 0.722904
+12.52303 0.736238
+12.512859 0.749237
+12.503142 0.761918
+12.493821 0.774295
+12.484851 0.786382
+12.476193 0.798192
+12.46781 0.809737
+12.459678 0.821028
+12.451766 0.832076
+12.444053 0.84289
+12.436518 0.85348
+12.429147 0.863853
+12.421926 0.874019
+12.414835 0.883985
+12.407869 0.893758
+12.401016 0.903344
+12.394264 0.912751
+12.387608 0.921984
+12.381037 0.931049
+12.374551 0.939951
+12.368138 0.948697
+12.361795 0.957289
+12.355516 0.965734
+12.349298 0.974036
+12.343138 0.982199
+12.337032 0.990226
+12.330976 0.998123
+12.324969 1.005893
+12.319006 1.013539
+12.313086 1.021065
+12.307206 1.028473
+12.301365 1.035768
+12.295562 1.042952
+12.289793 1.050028
+12.284059 1.056999
+12.278357 1.063866
+12.272686 1.070635
+12.267045 1.077306
+12.261434 1.083882
+12.255852 1.090362
+12.250294 1.096753
+12.244758 1.103071
+12.239245 1.10933
+12.233763 1.115535
+12.228318 1.121687
+12.222913 1.127785
+12.217551 1.133832
+12.212234 1.139827
+12.206964 1.145773
+12.201739 1.151668
+12.196565 1.157515
+12.191437 1.163313
+12.186359 1.169063
+12.181329 1.174765
+12.176347 1.180421
+12.171412 1.186031
+12.166526 1.191595
+12.161685 1.197114
+12.15689 1.202588
+12.152144 1.208018
+12.147442 1.213404
+12.142784 1.218747
+12.13817 1.224047
+12.133599 1.229304
+12.12907 1.23452
+12.124582 1.239695
+12.120136 1.244828
+12.115729 1.249921
+12.111363 1.254974
+12.107034 1.259988
+12.102743 1.264962
+12.098489 1.269897
+12.05783 1.317204
+12.020132 1.361056
+11.984848 1.401795
+11.951552 1.439726
+11.919912 1.475116
+11.889671 1.508201
+11.86063 1.539189
+11.83263 1.568265
+11.805548 1.595593
+11.779281 1.62132
+11.753751 1.645575
+11.728888 1.668475
+11.704637 1.690124
+11.680952 1.710617
+11.657794 1.730038
+11.635127 1.748465
+11.612923 1.765967
+11.591156 1.782606
+11.569804 1.798442
+11.548845 1.813526
+11.528263 1.827907
+11.508041 1.841628
+11.488164 1.854731
+11.468619 1.867252
+11.449393 1.879226
+11.430475 1.890684
+11.411855 1.901657
+11.393522 1.912171
+11.375468 1.922251
+11.357683 1.93192
+11.340161 1.941202
+11.322891 1.950114
+11.305869 1.958678
+11.289086 1.96691
+11.272537 1.974827
+11.256214 1.982444
+11.240113 1.989775
+11.224226 1.996835
+11.20855 2.003636
+11.193078 2.01019
+11.177806 2.016508
+11.162729 2.022601
+11.147843 2.028479
+11.133142 2.034151
+11.118622 2.039626
+11.10428 2.044912
+11.090111 2.050018
+11.076113 2.054951
+11.06228 2.059718
+11.048609 2.064326
+11.035097 2.068781
+11.021741 2.073089
+11.008537 2.077257
+10.995483 2.081289
+10.982574 2.08519
+10.969808 2.088966
+10.957183 2.092622
+10.944695 2.096161
+10.932342 2.099588
+10.920122 2.102908
+10.908032 2.106123
+10.89607 2.109236
+10.884235 2.112252
+10.872524 2.115174
+10.860934 2.118003
+10.849464 2.120743
+10.838111 2.123397
+10.826874 2.125968
+10.81575 2.128457
+10.804737 2.130868
+10.793832 2.133202
+10.783035 2.135462
+10.772342 2.13765
+10.761753 2.139768
+10.751265 2.141818
+10.740876 2.143803
+10.730585 2.145723
+10.72039 2.147582
+10.710289 2.14938
+10.70028 2.151119
+10.690362 2.152801
+10.680534 2.154428
+10.670793 2.156001
+10.661139 2.157522
+10.651569 2.158991
+10.642082 2.160411
+10.632678 2.161783
+10.623354 2.163109
+10.61411 2.164388
+10.604943 2.165623
+10.517307 2.175782
+10.436267 2.182614
+10.360947 2.186876
+10.290643 2.189133
+10.224779 2.189819
+10.162876 2.189263
+10.104531 2.187725
+10.049401 2.185405
+9.99719 2.182464
+9.947642 2.179029
+9.900535 2.175203
+9.855671 2.171067
+9.812876 2.166689
+9.771995 2.162124
+9.732891 2.157415
+9.695439 2.1526
+9.659527 2.147708
+9.625054 2.142765
+9.591929 2.137791
+9.560067 2.132803
+9.529393 2.127816
+9.499837 2.122841
+9.471334 2.117887
+9.443827 2.112963
+9.41726 2.108075
+9.391583 2.103228
+9.366751 2.098428
+9.342719 2.093677
+9.319449 2.088978
+9.296902 2.084334
+9.275045 2.079745
+9.253845 2.075215
+9.233271 2.070743
+9.213295 2.066329
+9.193892 2.061976
+9.175035 2.057682
+9.156703 2.053447
+9.138871 2.049272
+9.121521 2.045156
+9.104631 2.041098
+9.088185 2.037099
+9.072165 2.033157
+9.056553 2.029272
+9.041334 2.025443
+9.026495 2.021669
+9.01202 2.01795
+8.997896 2.014284
+8.984112 2.010672
+8.970654 2.007111
+8.957511 2.003602
+8.944673 2.000143
+8.932129 1.996733
+8.91987 1.993372
+8.907885 1.990059
+8.896166 1.986792
+8.884705 1.983572
+8.873493 1.980396
+8.862522 1.977265
+8.851785 1.974178
+8.841274 1.971133
+8.830984 1.96813
+8.820906 1.965169
+8.811036 1.962247
+8.801366 1.959365
+8.791891 1.956522
+8.782606 1.953718
+8.773504 1.95095
+8.764581 1.94822
+&
+@target G0.S8
+@type xy
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+1e-06 0
+0.500651 3.9e-05
+0.748155 0.000132
+0.928084 0.000253
+1.075917 0.000394
+1.209846 0.000562
+1.32269 0.000736
+1.425852 0.000924
+1.522064 0.001127
+1.611128 0.001339
+1.700676 0.001578
+1.773321 0.001794
+1.847029 0.002031
+1.978319 0.002495
+1.988074 0.002544
+2.540929 0.005409
+2.967216 0.008747
+3.29591 0.012169
+3.577993 0.015782
+3.826976 0.019551
+4.044164 0.023346
+4.242257 0.027241
+4.415124 0.031043
+4.586803 0.035124
+4.724358 0.038787
+4.859799 0.042616
+4.986239 0.046442
+5.105229 0.050272
+5.22854 0.054382
+5.321561 0.057862
+5.423181 0.061693
+5.515901 0.065401
+5.598188 0.068914
+5.682358 0.072578
+5.764698 0.07628
+5.858435 0.080441
+5.915382 0.083499
+5.986672 0.087092
+6.053263 0.090594
+6.115094 0.093992
+6.177377 0.097464
+6.250319 0.101384
+6.306963 0.104766
+6.35059 0.107702
+6.404517 0.111066
+6.458774 0.114487
+6.506085 0.117675
+6.555346 0.120978
+6.613348 0.124676
+6.663546 0.128095
+6.693663 0.130705
+6.738438 0.133956
+6.780819 0.137134
+6.821117 0.140248
+6.862451 0.143434
+6.903526 0.146634
+6.948062 0.150017
+6.987651 0.153201
+7.019121 0.156034
+7.06484 0.159548
+7.082718 0.161776
+7.117906 0.164833
+7.151462 0.16783
+7.183682 0.170779
+7.21458 0.17368
+7.249255 0.176781
+7.276295 0.17952
+7.307157 0.182462
+7.335184 0.185274
+7.373486 0.188623
+7.400169 0.191393
+7.421914 0.193919
+7.449762 0.196769
+7.475306 0.19951
+7.500865 0.202261
+7.526577 0.205029
+7.552388 0.207812
+7.575472 0.210457
+7.600964 0.213241
+7.625625 0.215988
+7.648022 0.218618
+7.671513 0.221316
+7.712391 0.224989
+7.716953 0.226649
+7.737907 0.229225
+7.76197 0.231984
+7.782664 0.234558
+7.803049 0.23712
+7.823836 0.239711
+7.843284 0.242229
+7.863441 0.244793
+7.887575 0.247594
+7.905336 0.250029
+7.923097 0.252466
+7.943255 0.255049
+7.961013 0.257494
+7.981585 0.260111
+7.997812 0.262472
+8.016296 0.264971
+8.037826 0.267659
+8.067503 0.270848
+8.070105 0.272391
+8.088469 0.274897
+8.101679 0.277088
+8.119002 0.279536
+8.282636 0.30355
+8.413055 0.32558
+8.537377 0.347263
+8.650353 0.368228
+8.753838 0.38859
+8.848576 0.40831
+8.937387 0.42756
+9.021815 0.44643
+9.096558 0.464488
+9.167778 0.482185
+9.243097 0.500121
+9.30284 0.516713
+9.357455 0.532773
+9.413447 0.54883
+9.467772 0.564636
+9.517082 0.579903
+9.565143 0.594947
+9.610532 0.609643
+9.665343 0.625046
+9.694978 0.638131
+9.733842 0.651903
+9.775727 0.66583
+9.807733 0.678755
+9.845733 0.692107
+9.874491 0.704503
+9.907335 0.717161
+9.940763 0.729765
+9.966019 0.7415
+9.994009 0.753382
+10.029945 0.765906
+10.051839 0.777006
+10.071985 0.787832
+10.095436 0.798869
+10.11864 0.809783
+10.141569 0.820572
+10.16269 0.831091
+10.184091 0.841542
+10.206627 0.852012
+10.223871 0.861872
+10.242697 0.871796
+10.26391 0.881869
+10.279185 0.891267
+10.295579 0.900689
+10.311813 0.91001
+10.328584 0.919303
+10.344251 0.928404
+10.358673 0.9373
+10.373577 0.946165
+10.391686 0.955278
+10.402349 0.963561
+10.415169 0.971987
+10.427992 0.980339
+10.441871 0.988727
+10.4537 0.996833
+10.465074 1.004823
+10.477635 1.012866
+10.487519 1.020565
+10.49953 1.028417
+10.509478 1.03599
+10.522189 1.043785
+10.530186 1.051027
+10.539906 1.058384
+10.549388 1.065656
+10.558504 1.072831
+10.567617 1.07995
+10.583934 1.087771
+10.5869 1.094143
+10.595791 1.101085
+10.601735 1.107667
+10.612494 1.114707
+10.619081 1.121257
+10.624833 1.12767
+10.634012 1.134398
+10.639686 1.140707
+10.647111 1.147155
+10.654063 1.153507
+10.661926 1.15991
+10.667883 1.166065
+10.674005 1.172192
+10.680307 1.178295
+10.686335 1.184325
+10.69245 1.190321
+10.700759 1.196511
+10.704547 1.202172
+10.710023 1.207973
+10.716755 1.213869
+10.720995 1.219455
+10.726075 1.225092
+10.731679 1.230746
+10.738059 1.236444
+10.781992 1.289218
+10.818575 1.337728
+10.847252 1.382273
+10.870345 1.423419
+10.888855 1.46155
+10.90309 1.496937
+10.914301 1.529928
+10.923613 1.560831
+10.928488 1.589524
+10.931642 1.616455
+10.934011 1.641855
+10.934339 1.665698
+10.932501 1.688072
+10.930292 1.70927
+10.92696 1.729289
+10.924235 1.748398
+10.917919 1.766195
+10.912248 1.783215
+10.905849 1.79936
+10.8992 1.814736
+10.893429 1.829514
+10.884367 1.843272
+10.877172 1.856625
+10.86795 1.869175
+10.859334 1.881248
+10.850578 1.892793
+10.841636 1.903832
+10.83226 1.914366
+10.822881 1.924465
+10.813764 1.934182
+10.803647 1.943399
+10.794271 1.952328
+10.784951 1.960911
+10.774275 1.969011
+10.765243 1.976973
+10.754423 1.984437
+10.744548 1.991715
+10.734324 1.998679
+10.72431 2.005403
+10.714231 2.011869
+10.704159 2.018095
+10.6942 2.024104
+10.684084 2.029875
+10.673939 2.035433
+10.664317 2.040845
+10.654125 2.046003
+10.645328 2.051123
+10.634312 2.055828
+10.624248 2.060464
+10.615333 2.065057
+10.604586 2.069298
+10.595029 2.073512
+10.58508 2.077539
+10.575478 2.081462
+10.565787 2.085239
+10.556289 2.088905
+10.546725 2.092439
+10.53718 2.095853
+10.52781 2.099168
+10.518341 2.102359
+10.509169 2.105472
+10.499996 2.108479
+10.490736 2.111375
+10.481605 2.114186
+10.47233 2.116886
+10.464392 2.119632
+10.455102 2.122149
+10.445444 2.124542
+10.436467 2.126921
+10.427613 2.12923
+10.418872 2.131471
+10.410676 2.133691
+10.402249 2.135812
+10.393062 2.137782
+10.385025 2.139798
+10.375699 2.141615
+10.367246 2.143452
+10.359065 2.145252
+10.35059 2.146958
+10.342246 2.148616
+10.334082 2.150231
+10.325959 2.151792
+10.317796 2.153291
+10.310435 2.154815
+10.301687 2.156146
+10.29425 2.157555
+10.285821 2.158813
+10.277951 2.160077
+10.270155 2.161299
+10.263033 2.162541
+10.187334 2.172132
+10.116915 2.178589
+10.050638 2.182565
+9.987805 2.184575
+9.928937 2.185115
+9.872415 2.18438
+9.81919 2.182733
+9.768478 2.180318
+9.720353 2.177315
+9.674338 2.173821
+9.630424 2.169951
+9.588405 2.165778
+9.548306 2.161382
+9.509742 2.156792
+9.473532 2.152132
+9.437233 2.147239
+9.403334 2.142359
+9.370418 2.137406
+9.339117 2.132457
+9.308817 2.127485
+9.278875 2.122456
+9.251018 2.117528
+9.223146 2.112543
+9.196604 2.107623
+9.170896 2.102737
+9.146187 2.097907
+9.122091 2.09311
+9.098765 2.088366
+9.076219 2.08368
+9.054323 2.079047
+9.033117 2.074473
+9.012583 2.069962
+8.992402 2.065491
+8.973285 2.061118
+8.95381 2.056736
+8.935653 2.052475
+8.917468 2.048234
+8.89991 2.044063
+8.882876 2.039957
+8.86684 2.035951
+8.85019 2.031927
+8.834367 2.027991
+8.819058 2.024121
+8.804016 2.020299
+8.789488 2.016543
+8.775081 2.012825
+8.761306 2.009183
+8.747695 2.005581
+8.734184 2.002016
+8.721208 1.998519
+8.708488 1.99507
+8.695905 1.991659
+8.683795 1.988312
+8.671881 1.985007
+8.660272 1.981752
+8.648815 1.978536
+8.638212 1.975408
+8.626689 1.972244
+8.616211 1.969181
+8.605418 1.966122
+8.59525 1.963135
+8.585121 1.960177
+8.575561 1.957284
+8.565564 1.954387
+8.556155 1.951557
+8.546924 1.948764
+&
+@target G0.S9
+@type xy
+795.21755 0.594118
+813.35751 0.595509
+831.45868 0.596868
+849.62285 0.598198
+867.90884 0.599503
+886.40127 0.600786
+905.11888 0.60205
+924.14127 0.603295
+943.50117 0.604526
+963.23566 0.605741
+983.38315 0.606944
+1003.9774 0.608135
+1025.0742 0.609315
+1046.6456 0.610485
+1068.785 0.611647
+1091.5094 0.6128
+1114.8525 0.613948
+1138.8795 0.61509
+1163.5347 0.616228
+1188.9478 0.617365
+1215.1477 0.618502
+1242.1057 0.619641
+1269.9287 0.620783
+1298.6342 0.62193
+1328.2956 0.623085
+1358.8263 0.624247
+1390.3812 0.625419
+1423.0119 0.626602
+1456.7165 0.627796
+1491.578 0.629001
+1527.6877 0.630217
+1564.9174 0.631442
+1603.5288 0.632673
+1643.487 0.633905
+1684.8548 0.635133
+1727.7157 0.636349
+1772.0251 0.637541
+1817.9386 0.638694
+1865.8365 0.639787
+1914.4561 0.640793
+1965.2626 0.641684
+2017.8617 0.64242
+2072.452 0.642954
+2129.007 0.643229
+2187.8541 0.64318
+2249.0333 0.642735
+2312.7508 0.641809
+2379.2454 0.640315
+2448.8906 0.638155
+2521.9927 0.635223
+2598.9746 0.631405
+2679.9915 0.62657
+2765.7769 0.620575
+2856.9258 0.613253
+2953.8317 0.604414
+3057.3036 0.593844
+3168.3084 0.581302
+3287.3212 0.566504
+3415.7929 0.549115
+3553.9144 0.528843
+3701.7755 0.505223
+3859.581 0.477648
+4024.9836 0.445364
+4194.0161 0.407435
+4344.7218 0.362697
+4433.6787 0.30994
+4369.4425 0.249036
+3945.0025 0.185038
+2973.2117 0.134064
+1920.4461 0.108519
+1247.8636 0.098642
+874.75365 0.094466
+657.93354 0.092395
+521.16744 0.091247
+428.82819 0.090575
+363.02696 0.090179
+314.09615 0.089958
+276.48016 0.089855
+246.784 0.089837
+222.82442 0.08988
+203.12924 0.089971
+186.67714 0.090099
+172.75012 0.090256
+160.81945 0.090437
+150.49395 0.090637
+141.47697 0.090852
+133.54443 0.091081
+126.50626 0.091321
+120.22594 0.091571
+114.57455 0.091829
+109.45062 0.092096
+104.78689 0.09237
+74.156503 0.0954
+58.25455 0.098725
+48.586817 0.102195
+42.120993 0.105741
+37.508362 0.109325
+34.06027 0.112927
+31.389645 0.116531
+29.263192 0.12013
+27.531791 0.123717
+26.095964 0.127287
+24.887133 0.130838
+23.856237 0.134367
+22.967181 0.137871
+22.193059 0.141349
+21.513278 0.144801
+20.911762 0.148227
+20.375883 0.151625
+19.895596 0.154997
+19.462757 0.158342
+19.070822 0.161661
+18.71427 0.164954
+18.38858 0.168221
+18.089955 0.171464
+17.815285 0.174682
+17.561752 0.177876
+17.327039 0.181046
+17.109221 0.184193
+16.90651 0.187317
+16.717466 0.190419
+16.540739 0.193499
+16.375184 0.196557
+16.219781 0.199595
+16.0737 0.202611
+15.936104 0.205608
+15.806252 0.208585
+15.683606 0.211542
+15.567543 0.21448
+15.457623 0.217399
+15.353207 0.220299
+15.254093 0.223182
+15.15982 0.226046
+15.070067 0.228894
+14.984504 0.231724
+14.902869 0.234537
+14.824904 0.237333
+14.750372 0.240113
+14.679055 0.242877
+14.610758 0.245625
+14.545299 0.248358
+14.482511 0.251075
+14.422231 0.253777
+14.364333 0.256464
+14.308674 0.259137
+14.255133 0.261795
+14.203594 0.264439
+14.15396 0.267069
+14.106108 0.269685
+14.059978 0.272287
+14.015456 0.274876
+13.972477 0.277452
+13.930949 0.280015
+13.89084 0.282564
+13.852039 0.285102
+13.814508 0.287626
+13.778179 0.290138
+13.743012 0.292638
+13.708935 0.295126
+13.675921 0.297602
+13.643903 0.300066
+13.61286 0.302519
+13.58272 0.30496
+13.553476 0.307389
+13.525086 0.309808
+13.497505 0.312215
+13.470695 0.314612
+13.444639 0.316997
+13.419303 0.319372
+13.394662 0.321737
+13.370677 0.324091
+13.347342 0.326434
+13.324615 0.328768
+13.302474 0.331091
+13.280917 0.333404
+13.259909 0.335708
+13.239435 0.338001
+13.21947 0.340285
+13.2 0.342559
+13.181001 0.344824
+13.162472 0.34708
+13.144384 0.349326
+12.984994 0.371296
+12.857056 0.392431
+12.752502 0.412797
+12.665571 0.432521
+12.592384 0.45174
+12.530371 0.470425
+12.477367 0.488612
+12.431721 0.506325
+12.392151 0.52359
+12.357635 0.540429
+12.327345 0.556861
+12.300632 0.572907
+12.276956 0.588584
+12.255871 0.603909
+12.237011 0.618897
+12.220076 0.633562
+12.204805 0.647917
+12.190983 0.661976
+12.178428 0.675749
+12.166984 0.689248
+12.156514 0.702482
+12.146905 0.715463
+12.138058 0.728198
+12.129882 0.740697
+12.122307 0.752967
+12.115265 0.765017
+12.108699 0.776853
+12.102558 0.788483
+12.096797 0.799912
+12.091379 0.811148
+12.086264 0.822196
+12.081429 0.833062
+12.076838 0.843752
+12.072472 0.854269
+12.068308 0.86462
+12.064325 0.87481
+12.060507 0.884841
+12.056836 0.89472
+12.0533 0.904449
+12.049888 0.914033
+12.046584 0.923476
+12.043381 0.932782
+12.040268 0.941953
+12.037235 0.950993
+12.034278 0.959906
+12.031388 0.968694
+12.02856 0.97736
+12.025785 0.985908
+12.023063 0.994341
+12.020384 1.00266
+12.017746 1.010868
+12.015145 1.018969
+12.012578 1.026963
+12.01004 1.034855
+12.007531 1.042645
+12.005044 1.050337
+12.00258 1.057931
+12.000135 1.065432
+11.99771 1.072839
+11.995299 1.080155
+11.992901 1.087382
+11.990516 1.094522
+11.988142 1.101578
+11.985778 1.108553
+11.983423 1.11545
+11.981079 1.122274
+11.978746 1.129027
+11.976425 1.135712
+11.974115 1.142328
+11.971816 1.148877
+11.969529 1.15536
+11.967252 1.161778
+11.964985 1.168132
+11.962727 1.174423
+11.96048 1.180652
+11.958241 1.18682
+11.956011 1.192928
+11.953789 1.198977
+11.951576 1.204968
+11.949368 1.210901
+11.947169 1.216778
+11.944975 1.222599
+11.942788 1.228365
+11.940609 1.234077
+11.938434 1.239736
+11.936264 1.245343
+11.934099 1.250897
+11.931939 1.256401
+11.929783 1.261855
+11.927631 1.267259
+11.9063 1.318719
+11.885185 1.365909
+11.864183 1.409348
+11.843246 1.449472
+11.822354 1.486647
+11.801508 1.521188
+11.780718 1.553362
+11.76 1.583401
+11.739369 1.611508
+11.718843 1.637859
+11.698436 1.662608
+11.678164 1.685893
+11.65804 1.707835
+11.638074 1.728542
+11.618276 1.748111
+11.598654 1.766627
+11.579215 1.784169
+11.559965 1.800808
+11.540906 1.816606
+11.522044 1.831621
+11.503379 1.845906
+11.484914 1.859508
+11.46665 1.872472
+11.448586 1.884838
+11.430723 1.896642
+11.413061 1.907918
+11.395598 1.918697
+11.378334 1.929008
+11.361265 1.938878
+11.344392 1.948331
+11.327711 1.95739
+11.311222 1.966077
+11.294921 1.97441
+11.278806 1.982409
+11.262876 1.990091
+11.247126 1.997471
+11.231555 2.004565
+11.216161 2.011386
+11.200941 2.017948
+11.185891 2.024262
+11.17101 2.030342
+11.156295 2.036196
+11.141743 2.041837
+11.127352 2.047272
+11.113119 2.052512
+11.099041 2.057565
+11.085116 2.062438
+11.071341 2.06714
+11.057715 2.071678
+11.044234 2.076059
+11.030896 2.080288
+11.017699 2.084373
+11.004641 2.088318
+10.991718 2.09213
+10.978929 2.095814
+10.966272 2.099375
+10.953744 2.102817
+10.941344 2.106145
+10.929069 2.109363
+10.916917 2.112476
+10.904886 2.115486
+10.892975 2.118399
+10.881181 2.121217
+10.869501 2.123944
+10.857936 2.126583
+10.846482 2.129137
+10.835138 2.13161
+10.823903 2.134002
+10.812775 2.136318
+10.801753 2.13856
+10.790836 2.140729
+10.780021 2.142827
+10.769308 2.144858
+10.758694 2.146823
+10.748178 2.148724
+10.737758 2.150562
+10.727435 2.15234
+10.717204 2.154059
+10.707066 2.155721
+10.697019 2.157328
+10.68706 2.158881
+10.67719 2.160381
+10.667405 2.161831
+10.657707 2.163231
+10.648092 2.164583
+10.638559 2.165888
+10.629108 2.167148
+10.619736 2.168364
+10.610444 2.169536
+10.601228 2.170667
+10.513094 2.179898
+10.431563 2.185983
+10.355782 2.189635
+10.285054 2.19139
+10.218803 2.191655
+10.15655 2.190746
+10.097889 2.188907
+10.042471 2.18633
+9.99 2.183167
+9.940216 2.17954
+9.892892 2.175545
+9.847831 2.171262
+9.804854 2.166754
+9.763807 2.162073
+9.72455 2.157262
+9.686955 2.152355
+9.650911 2.147381
+9.616316 2.142365
+9.583076 2.137324
+9.551108 2.132277
+9.520333 2.127235
+9.490683 2.12221
+9.462092 2.117211
+9.434501 2.112246
+9.407855 2.107321
+9.382104 2.10244
+9.357201 2.097608
+9.333102 2.092828
+9.309767 2.088102
+9.287159 2.083434
+9.265244 2.078823
+9.243988 2.074271
+9.223361 2.06978
+9.203334 2.065349
+9.183882 2.060979
+9.164978 2.056669
+9.146599 2.052421
+9.128724 2.048232
+9.111331 2.044104
+9.094402 2.040035
+9.077916 2.036025
+9.061857 2.032073
+9.046208 2.028179
+9.030954 2.024342
+9.01608 2.02056
+9.001571 2.016833
+8.987415 2.013161
+8.973599 2.009542
+8.96011 2.005976
+8.946937 2.002461
+8.934069 1.998997
+8.921497 1.995582
+8.909209 1.992217
+8.897197 1.988899
+8.885452 1.985629
+8.873965 1.982405
+8.862727 1.979226
+8.851731 1.976092
+8.84097 1.973002
+8.830436 1.969955
+8.820122 1.96695
+8.810021 1.963986
+8.800128 1.961062
+8.790436 1.958179
+8.78094 1.955334
+8.771633 1.952528
+&
