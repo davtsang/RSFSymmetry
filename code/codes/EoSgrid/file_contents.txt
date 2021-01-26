@@ -1,0 +1,19 @@
+contours_JK/             Contains files with interpolated J and Ksym values that, for the chosen L value, result in i-modes with the chosen frequency. File naming convention is  ' L50_M1.4_chirp1.2_f100.txt ', where the number after 'L' is the chosen L value, the number after 'M' is the chosen stellar mass, the number after 'chirp' is the chosen chirp mass, and the number after 'f' is the chosen frequency. The values in the files are J, L, Ksym. The files with 'dfp' and 'dfm' in their names contain the same, but for f+df and f-df, where f is the chosen frequency and df is the spread due to the resonance window.
+
+contours_JL/             Similar to contours_JK, but where the J and L values are interpolated so that, for the chosen Ksym value, the i-modes has the chosen frequency.
+
+contours_LK/             Similar to contours_JK, but where the L and Ksym values are interpolated so that, for the chosen J value, the i-modes has the chosen frequency.
+
+TO REPRODUCE THE 3D PLOT IN OUR PAPER: plot the files in 'contours_JK/', 'contours_JL/' and 'contours_LK/' that have the same chosen frequency value to get a surface for that frequency. (ie: contours_JK/L*_M1.4_chirp1.2_f120.txt, contours_JL/K*_M1.4_chirp1.2_f120.txt, contours_LK/J*_M1.4_chirp1.2_f120.txt for the 120Hz surface) (All of the files in these directories have columns: J, L, Ksym. Therefore, it should be simple to plot them together.)
+
+EoSs/                    Contains the grid of equations of state for our 'uniform' J,L,Ksym ranges.
+
+f_Rvals/                 Gives the i-mode frequency and crust-core or total radius for several different NS masses (the first three columns are: Rcc or R* (Km),  frequency (Hz),  neutron star mass (solar masses)). Can be used to see how frequency and radius change with NS mass. Each file is for a different EoS, with the J, L, Ksym values in the file names.
+
+shear_speed/             Contains the codes used and results obtained while investigating the relationship between the shear speed and the frequency and symmetry energy parameters
+
+TOV_Mct/                 Contains, for a few EoSs (J, L, Ksym values are in the file names): NS mass, NS radius, density-weighted average shear speed in the crust
+
+TOV_MR/                  Contains the mass-radius relationship for some of our EoSs (J, L, Ksym values are in the file names): NS radius, NS mass
+
+TOV_MRcc/                Similar to TOV_MR, but for the crust-core transition radius instead of the total radius: NS crust-core transition radius, NS mass

@@ -1,0 +1,10 @@
+contours_M*/             Contains files with interpolated J and L values that result in i-modes with the chosen frequency. File naming convention is  ' M1.4_f100.txt ', where the number after 'M' (and in the name of the directory) is the chosen stellar mass, and the number after 'f' is the chosen frequency. The values in the files are J, L
+
+contours/                Similar to contours_M14/, but also contains the files for f+df and f-df, where df is the spread in the resonant frequency due to the resonance window.
+
+EoSs/                    Contains the grid of equations of state for our 'MSL0' J,L,Ksym ranges.
+
+shear_speed/             Contains the codes used and results obtained while investigating the relationship between the shear speed and the frequency and symmetry energy parameters
+
+TOV_MR/                  Contains the mass-radius relationship for some of our EoSs (J, L, Ksym values are in the file names): NS radius, NS mass
+
