@@ -4,7 +4,7 @@ contours_JL/             Similar to contours_JK, but where the J and L values ar
 
 contours_LK/             Similar to contours_JK, but where the L and Ksym values are interpolated so that, for the chosen J value, the i-modes has the chosen frequency.
 
-TO REPRODUCE THE 3D PLOT IN OUR PAPER: plot the files in 'contours_JK/', 'contours_JL/' and 'contours_LK/' that have the same chosen frequency value to get a surface for that frequency. (ie: contours_JK/L*_M1.4_chirp1.2_f120.txt, contours_JL/K*_M1.4_chirp1.2_f120.txt, contours_LK/J*_M1.4_chirp1.2_f120.txt for the 120Hz surface) (All of the files in these directories have columns: J, L, Ksym. Therefore, it should be simple to plot them together.)
+TO REPRODUCE THE 3D PLOT IN OUR PAPER: plot the files in 'contours_JK/', 'contours_JL/' and 'contours_LK/' that have the same chosen frequency value to get a surface for that frequency (ie: contours_JK/L*_M1.4_chirp1.2_f120.txt, contours_JL/K*_M1.4_chirp1.2_f120.txt, contours_LK/J*_M1.4_chirp1.2_f120.txt for the 120Hz surface) (All of the files in these directories have columns: J, L, and Ksym.). This is done in the grid_frequencysurface.py python script, with variables at the start of the code that determine the viewing angle.
 
 EoSs/                    Contains the grid of equations of state for our 'uniform' J,L,Ksym ranges.
 

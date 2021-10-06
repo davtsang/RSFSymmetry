@@ -4,7 +4,7 @@ contours_J_a0/           Similar to contours_a0_b12, but where the J, L and Ksym
 
 contours_J_b12/          Similar to contours_a0_b12, but where the J, L and Ksym values are interpolated so that, for the chosen a0 value, the i-modes has the chosen frequency. (for definition of a0 and b12, see 'Newton W. G., Crocombe G., 2020, arXiv e-prints, p. arXiv:2008.00042')
 
-TO REPRODUCE THE 3D PLOT IN OUR PAPER: plot the files in 'contours_a0_b12/', 'contours_J_a0/' and 'contours_J_b12/' that have the same chosen frequency value to get a surface for that frequency. (ie: contours_a0_b12/f120_J*.txt, contours_J_a0/f120_b12_*.txt, contours_J_b12/f120_a0_*.txt for the 120Hz surface) (All of the files in these directories have columns: J, L, Ksym. Therefore, it should be simple to plot them together.)
+TO REPRODUCE THE 3D PLOT IN OUR PAPER: plot the files in 'contours_a0_b12/', 'contours_J_a0/' and 'contours_J_b12/' that have the same chosen frequency value to get a surface for that frequency (ie: contours_a0_b12/f120_J*.txt, contours_J_a0/f120_b12_*.txt, contours_J_b12/f120_a0_*.txt for the 120Hz surface) (All of the files in these directories have columns: J, L, and Ksym.). This is done in the PNM_frequencysurface.py python script, with variables at the start of the code that determine the viewing angle.
 
 EoSs/                    Contains the grid of equations of state for our 'PNM' J,L,Ksym ranges.
 
